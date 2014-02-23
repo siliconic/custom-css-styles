@@ -1,0 +1,260 @@
+/*
+A theme by siliconic
+for wikipedia.org
+ver 0.1
+(forked from ilkkah's great work @ stylebot.me/styles/29)
+
+find more styles + updates + give me some feedback @
+stylebot.me/users/siliconic
+github.com/siliconic
+*/
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+#p-logo a {
+    display: none;
+}
+
+#p-logo {
+    display: none;
+}
+
+#mw-page-base, #mw-head {
+    display: none;
+}
+
+div.noprint {
+}
+
+h1.firstHeading {
+    font-family: Cambria, Palatino, "Palatino Linotype", serif;
+}
+
+tbody tr td {
+    border-color: #e0e0e0;
+}
+
+table {
+    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+    background: #fcfcfc;
+    -xwebkit-box-shadow: 0px 0px 6px #eee;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 12px;
+    color: rgba(0,0,0,.5);
+    margin-left: 2.2em;
+}
+
+.thumbcaption {
+    color: rgba(0,0,0,.7);
+    font-size: .64em;
+}
+
+table tr td {
+    padding: 2px 5px;
+    background-color: none;
+}
+
+table * {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+sup.reference a {
+    color: #777;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+span.editsection {
+    color: #bdbdbd;
+    display: none;
+}
+
+span.editsection a {
+    color: #d6d6d6;
+}
+
+a.internal.hoverZoomLink img {
+    display: none;
+}
+
+div.thumbinner {
+    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+    border-style: none;
+    background-color: #fcfcfc;
+}
+
+body {
+    min-width: 1000px;
+}
+
+#siteSub {
+    display: none;
+}
+
+#bodyContent {
+    z-index: 99;
+    font-size: 18px;
+}
+
+#bodyContent ol, #bodyContent ul, #bodyContent dl, #bodyContent p {
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#bodyContent td.description p {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+table.toc.tochidden {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#content {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "minion-pro-1", Cambria, Palatino, "Palatino Linotype", Helvetica, Arial, Georgia;
+    background-image: none;
+    background: #fbfbf9;
+    z-index: 44;
+    padding: 1em 2em;
+    color: black;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    right: -150px;
+    border: 0;
+}
+
+#mw-panel {
+    z-index: 8;
+    top: 30px;
+    opacity: .25;
+    -webkit-transition: all 0.15s ease-out;
+}
+
+#mw-panel:hover {
+    opacity: 1;
+}
+
+#footer {
+    display: none;
+}
+
+div.catlinks {
+    display: none;
+}
+
+table.navbox.vcard {
+    display: none;
+}
+
+table.metadata.mbox-small.plainlinks {
+    display: none;
+}
+
+caption.fn {
+    margin-bottom: 5px;
+}
+
+div.references-small.references-column-count.references-column-count-2 {
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+th.navbox-title {
+    background-color: #e3e3e3;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+tbody tr th {
+    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+    background-color: #fcfcfc;
+    border-color: #a3a3a3;
+}
+
+img.thumbimage {
+    border-style: none;
+}
+
+div.references-small.references-column-width {
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+div.references-small {
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+blockquote.templatequote div {
+    color: #4d4d4d;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+#JA1banner2-text {
+    display: none;
+}
+
+a.variable_lp.cn-full-banner-click {
+    display: none;
+}
+
+#siteNotice, #JA1banner11, #JA1banner2 {
+    /*display: none;*/
+}
+
+#siteNotice {
+    opacity: .7;
+}
+
+#firstHeading {
+    margin-top: 50px;
+}
+
+pre {
+    font-size: 14px;
+}
+
+a {
+    /*color: #a00;*/
+}
+
+#bodyContent h2, #bodyContent h3, #bodyContent h4, #bodyContent h5, #bodyContent h6 {
+    border-bottom: none;
+}
+
+.mw-editsection {
+    float: right;
+    opacity: .1;
+    -webkit-transition: all 0.15s ease-out;
+    vertical-align: baseline;
+    line-height: 27px;
+}
+
+.mw-editsection a {
+    color: black;
+}
+
+.mw-editsection:hover {
+    opacity: 1;
+}
+
+.mw-editsection:hover a {
+    color: #0645ad;
+}
+
+#bodyContent ol, #bodyContent ul {
+    font-size: .85rem;
+    line-height: 1.4rem;
+}
