@@ -1,7 +1,7 @@
 /*
 A theme by siliconic
 for wikipedia.org
-ver 0.1
+ver 0.1.0.1
 (forked from ilkkah's great work @ stylebot.me/styles/29)
 
 find more styles + updates + give me some feedback @
@@ -9,93 +9,7 @@ stylebot.me/users/siliconic
 github.com/siliconic
 */
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight: bold;
-}
-
-#p-logo a {
-    display: none;
-}
-
-#p-logo {
-    display: none;
-}
-
-#mw-page-base, #mw-head {
-    display: none;
-}
-
-div.noprint {
-}
-
-h1.firstHeading {
-    font-family: Cambria, Palatino, "Palatino Linotype", serif;
-}
-
-tbody tr td {
-    border-color: #e0e0e0;
-}
-
-table {
-    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
-    background: #fcfcfc;
-    -xwebkit-box-shadow: 0px 0px 6px #eee;
-    border-radius: 4px;
-    border-style: none;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    padding: 10px;
-    line-height: 20px;
-    font-size: 12px;
-    color: rgba(0,0,0,.5);
-    margin-left: 2.2em;
-}
-
-.thumbcaption {
-    color: rgba(0,0,0,.7);
-    font-size: .64em;
-}
-
-table tr td {
-    padding: 2px 5px;
-    background-color: none;
-}
-
-table * {
-    line-height: 20px;
-    font-size: 12px;
-}
-
-sup.reference a {
-    color: #777;
-    font-weight: 300;
-    font-size: 10px;
-}
-
-span.editsection {
-    color: #bdbdbd;
-    display: none;
-}
-
-span.editsection a {
-    color: #d6d6d6;
-}
-
-a.internal.hoverZoomLink img {
-    display: none;
-}
-
-div.thumbinner {
-    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
-    border-style: none;
-    background-color: #fcfcfc;
-}
-
-body {
-    min-width: 1000px;
-}
-
-#siteSub {
+#JA1banner2-text {
     display: none;
 }
 
@@ -104,20 +18,24 @@ body {
     font-size: 18px;
 }
 
+#bodyContent h2, #bodyContent h3, #bodyContent h4, #bodyContent h5, #bodyContent h6 {
+    border-bottom: none;
+}
+
 #bodyContent ol, #bodyContent ul, #bodyContent dl, #bodyContent p {
     line-height: 26px;
     font-size: 16px;
     margin-bottom: 15px;
 }
 
+#bodyContent ol, #bodyContent ul {
+    font-size: .85rem;
+    line-height: 1.4rem;
+}
+
 #bodyContent td.description p {
     line-height: 20px;
     font-size: 14px;
-    margin-bottom: 15px;
-}
-
-table.toc.tochidden {
-    margin-top: 20px;
     margin-bottom: 15px;
 }
 
@@ -137,6 +55,18 @@ table.toc.tochidden {
     border: 0;
 }
 
+#firstHeading {
+    margin-top: 50px;
+}
+
+#footer {
+    display: none;
+}
+
+#mw-page-base, #mw-head {
+    display: none;
+}
+
 #mw-panel {
     z-index: 8;
     top: 30px;
@@ -148,65 +78,11 @@ table.toc.tochidden {
     opacity: 1;
 }
 
-#footer {
+#p-logo {
     display: none;
 }
 
-div.catlinks {
-    display: none;
-}
-
-table.navbox.vcard {
-    display: none;
-}
-
-table.metadata.mbox-small.plainlinks {
-    display: none;
-}
-
-caption.fn {
-    margin-bottom: 5px;
-}
-
-div.references-small.references-column-count.references-column-count-2 {
-    font-family: Helvetica, Helvetica, Arial, sans-serif;
-}
-
-th.navbox-title {
-    background-color: #e3e3e3;
-    font-family: Helvetica, Helvetica, Arial, sans-serif;
-}
-
-tbody tr th {
-    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
-    background-color: #fcfcfc;
-    border-color: #a3a3a3;
-}
-
-img.thumbimage {
-    border-style: none;
-}
-
-div.references-small.references-column-width {
-    font-family: Helvetica, Helvetica, Arial, sans-serif;
-}
-
-div.references-small {
-    font-family: Helvetica, Helvetica, Arial, sans-serif;
-}
-
-blockquote.templatequote div {
-    color: #4d4d4d;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 20px;
-}
-
-#JA1banner2-text {
-    display: none;
-}
-
-a.variable_lp.cn-full-banner-click {
+#p-logo a {
     display: none;
 }
 
@@ -218,20 +94,8 @@ a.variable_lp.cn-full-banner-click {
     opacity: .7;
 }
 
-#firstHeading {
-    margin-top: 50px;
-}
-
-pre {
-    font-size: 14px;
-}
-
-a {
-    /*color: #a00;*/
-}
-
-#bodyContent h2, #bodyContent h3, #bodyContent h4, #bodyContent h5, #bodyContent h6 {
-    border-bottom: none;
+#siteSub {
+    display: none;
 }
 
 .mw-editsection {
@@ -254,7 +118,143 @@ a {
     color: #0645ad;
 }
 
-#bodyContent ol, #bodyContent ul {
-    font-size: .85rem;
-    line-height: 1.4rem;
+.thumbcaption {
+    color: rgba(0,0,0,.7);
+    font-size: .64em;
+}
+
+a {
+    /*color: #a00;*/
+}
+
+a.internal.hoverZoomLink img {
+    display: none;
+}
+
+a.variable_lp.cn-full-banner-click {
+    display: none;
+}
+
+blockquote.templatequote div {
+    color: #4d4d4d;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+body {
+    min-width: 1000px;
+}
+
+caption.fn {
+    margin-bottom: 5px;
+}
+
+div.catlinks {
+    display: none;
+}
+
+div.noprint {
+}
+
+div.references-small {
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+div.references-small.references-column-count.references-column-count-2 {
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+div.references-small.references-column-width {
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+div.thumbinner {
+    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+    border-style: none;
+    background-color: #fcfcfc;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+h1.firstHeading {
+    font-family: Cambria, Palatino, "Palatino Linotype", serif;
+}
+
+img.thumbimage {
+    border-style: none;
+}
+
+pre {
+    font-size: 14px;
+}
+
+span.editsection {
+    color: #bdbdbd;
+    display: none;
+}
+
+span.editsection a {
+    color: #d6d6d6;
+}
+
+sup.reference a {
+    color: #777;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+table {
+    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+    background: #fcfcfc;
+    -xwebkit-box-shadow: 0px 0px 6px #eee;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 12px;
+    color: rgba(0,0,0,.5);
+    margin-left: 2.2em;
+}
+
+table * {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+table tr td {
+    padding: 2px 5px;
+    background-color: none;
+}
+
+table.metadata.mbox-small.plainlinks {
+    display: none;
+}
+
+table.navbox.vcard {
+    display: none;
+}
+
+table.toc.tochidden {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+tbody tr td {
+    border-color: #e0e0e0;
+}
+
+tbody tr th {
+    font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+    background-color: #fcfcfc;
+    border-color: #a3a3a3;
+}
+
+th.navbox-title {
+    background-color: #e3e3e3;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
 }
