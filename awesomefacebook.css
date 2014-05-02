@@ -2,7 +2,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.0 (2014-04-27)
+ver 1.01 (2014-05-02)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -48,8 +48,6 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 .UFIComment .UFICommentActorName {
-    /*custom*/
-    /*.3em*/
     display: block;
     font-size: .83em;
     margin-bottom: .1667em;
@@ -60,9 +58,6 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 .UFIRow .UFICommentActions {
-    /*custom*/
-    /*.1667 aka 2px */
-    /*margin-top2: .42em;*/
     padding-top: .25em;
 }
 
@@ -76,11 +71,6 @@ body:not(.SettingsPage) #globalContainer {
 
 ._303 {
     margin-right: .6667em;
-}
-
-._3dp._29k ._5pbw {
-    /* news feed share action ("X shared Y's photo")
-    font-size:1.0769em;*/
 }
 
 ._4-k1 {
@@ -121,18 +111,16 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._54ru {
-    border-radius: 1.3333em;
-    /*margin-top2: .14em;*/
     /* Comment rows - actor image */
-    /*custom*/
+    border-radius: 1.3333em;
     height: 2.6667em;
     width: 2.6667em;
 }
 
 ._585- {
+    /* #blueBar search box */
     background-color: inherit;
     box-shadow: none;
-    /* #blueBar search box */
 }
 
 ._585_ {
@@ -143,10 +131,10 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5861 .DOMControl_placeholder, ._5861 ._586j, ._5861 ._586h {
-    color: #ccd5e8;
     /* #blueBar search box
     586h = autocompleted/predicted text following user-typed text
     586j = default/placeholder text ("Search for...") */
+    color: #ccd5e8;
 }
 
 ._5861 ._586j {
@@ -155,12 +143,11 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._586f, ._586i {
-    color: #fff;
     /* ._586i = #blueBar search text - user input or selected page/profile */
+	color: #fff;
 }
 
 ._59ap ._6m3 {
-    /* orig .8333em 1em */
     margin: .9231em 1em;
     max-height: none;
 }
@@ -186,18 +173,16 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5p3y #rightCol button, ._5p3y #rightCol ._4jy0 {
-    background: inherit;
     /*
     button = "like" buttons in news feed ads column
     ._4jy0 = "play now" button
     */
-    /*rgb(226,228,232)*/
+    background: inherit;
 }
 
 ._5p3y ._5pbw {
     /* news feed item ActorName */
-    /* trialing a smaller font. might revert to 1em (inherited), but for now this size is being used. */
-    font-size: .92em;
+    /* trialed a smaller font-size (.92em) */
 }
 
 ._5p3y ._5pbw.mbs {
@@ -206,15 +191,8 @@ body:not(.SettingsPage) #globalContainer {
 
 ._5p3y ._5pbx {
     /* news feed item - original actor's comment text */
-    /*1.25em */
-    /*.85em 1px .64em */
-    /* was 1.2307em */
-    /*1.0833em = 14px @ 13px (base) */
-    /* was .85em 1px .64em */
-    /* = 16px. was 1.4em = 18px */
-    /*was 1.4em 1px .98em */
-    font-size: 1.2308em;
-    margin: 1em 1px 0;
+    /* margin was 1em 1px 0 */
+    font-size: 1.1538em; /* was 1.2308em = 16px */
 }
 
 ._5p3y ._5vwg {
@@ -242,7 +220,7 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5p3y label, ._5p3y input {
-    font-size: inherit;
+    font-size: inherit !important;
 }
 
 ._5pat ._5sq7 {
@@ -253,10 +231,6 @@ body:not(.SettingsPage) #globalContainer {
 ._5pbw {
     margin-bottom: .1429em;
     padding-right: 1.5714em;
-}
-
-._5pbw .fwb {
-    /*font-weight: normal;*/
 }
 
 ._5qrt ._5vwe {
@@ -320,7 +294,6 @@ body:not(.SettingsPage) #globalContainer {
 
 ._5sq7, ._5v9u:after, ._rw {
     border-radius: 1.6em;
-    /*.1667*/
 }
 
 ._5v3q {
@@ -332,14 +305,13 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5v3q ._5x46 {
-    /*.9167em*/
-    margin-bottom: 1.4em;
+    /* fb default = 11px @ 13px font */
+    margin-bottom: .8461em;
 }
 
 ._5v3q .fbStoryAttachmentImage {
-    border-radius: .4em;
     /* news feed image */
-    /* .2143em. before, was .1429em i.e. 2px; */
+    border-radius: .4em;
 }
 
 ._5v6e #pagelet_reminders .egoOrganicColumn {
@@ -359,18 +331,17 @@ body:not(.SettingsPage) #globalContainer {
 
 ._5vb_ ._5qrt .ego_section .ego_unit {
     /* news feed right col - sponsored ad unit */
-    /* was .6667em 0 */
     padding: 1em 0;
 }
 
 ._5vb_ ._dcs {
-    border-radius: .4em;
     /* container for news feed image + headline + lede */
+    border-radius: .4em;
 }
 
 ._5vb_ ._dcs .__c_, ._5vb_ ._6l- {
-    background-color: inherit;
     /* container of news feed images */
+    background-color: inherit;
 }
 
 ._5vb_ .home_right_column .fbRemindersThickline {
@@ -415,7 +386,6 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5vsi .UFIBlingBoxReshareIcon {
-    /*width: 1em; 1.1667em */
     margin-right: .4167em;
 }
 
@@ -470,19 +440,19 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5vw4 .img {
-    border-radius: .4em;
     /* right-hand ads column - ad image */
+    border-radius: .4em;
 }
 
 ._6l- {
-    border-radius: .4em;
     /* container for news feed image */
+    border-radius: .4em;
     overflow: hidden;
 }
 
 ._6l-:after {
-    border-radius: .4em;
     /* container for news feed image - border declaration */
+    border-radius: .4em;
     overflow: hidden;
 }
 
@@ -501,11 +471,9 @@ body:not(.SettingsPage) #globalContainer {
 
 ._6m6 {
     /* news feed item attachment - title */
-    /* orig 1.5em */
-    /* orig none */
-    /*line-height: 1.222em;*/
     font-size: 1.5em;
     letter-spacing: -1px;
+    line-height: 1.222em;
     margin-bottom: .3571em;
     max-height: 6.1111em;
 }
@@ -518,7 +486,6 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._6ma ._6mb {
-    /* original proportion: .9167em*/
     font-size: .8em;
     line-height: 1em;
 }
@@ -530,11 +497,6 @@ body:not(.SettingsPage) #globalContainer {
 ._la {
     /* news feed - "related" content block */
     padding: 0;
-}
-
-._rw {
-    /*border-radius: .25em;
-    /* was .25em, and before that as 25px aka 50% of square profile photo's length */
 }
 
 .displayedTickerToggleWrapper .tickerLineToggle {
@@ -559,9 +521,8 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
 }
 
 .hasLeftCol ._5r-_.homeWiderContent div#contentArea {
-    align-self: stretch;
     /* Topic container */
-    /*min-width: 488px;*/
+    align-self: stretch;
     margin: 0 auto;
     width: 38em;
 }
@@ -576,8 +537,8 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
 }
 
 .litestandClassicWelcomeBox .fbxWelcomeBoxBlock:after {
-    border-radius: .25em;
     /* left-hand column - user profile photo anchor tag (hyperlink) */
+    border-radius: .25em;
 }
 
 .mbm {
@@ -597,8 +558,6 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
 }
 
 .sx_d52e6e {
-    /*margin-bottom: .25em;*/
-    /*.0714,.1429, .25 - ongoing experimental adjustment*/
     margin-top: .1429em;
 }
 
@@ -632,7 +591,6 @@ html body:not(.SettingsPage) #contentArea {
 }
 
 html body:not(.SettingsPage) #contentCol {
-    /*flex-wrap: wrap;*/
     display: flex;
 }
 
