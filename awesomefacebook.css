@@ -2,7 +2,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.01 (2014-05-02)
+ver 1.0.2 (2014-05-03)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -69,8 +69,56 @@ body:not(.SettingsPage) #globalContainer {
     font-size: .83em;
 }
 
+.uiSideNav .buttonWrap {
+    /* #leftCol nav group link gear button wrapper */
+    height: 1.6667em;
+    width: 1.6667em;
+}
+
+.uiNarrowSideNav .uiSideNav .buttonWrap {
+    margin-right: -0.1667em;
+}
+
+.uiSideNav .item,
+.uiSideNav .subitem {
+    padding: .25em .6667em 0 2.3333em;
+}
+
+.uiSideNav .item .imgWrap {
+    width: 1.5em;
+}
+
+.uiSideNav .sideNavItem .imgWrap {
+    margin-left: -1.8333em;
+}
+
+.uiSideNav .sideNavItem .uiSideNavEditButton {
+    margin: .1667em .4167em 0 0;
+}
+
+._2jq5 {
+    /* #leftCol nav group link badge (i.e. # of unread ___s) */
+    height: 1.8333em;
+    width: 1.75em;
+}
+
 ._303 {
     margin-right: .6667em;
+}
+
+._3479 #sideNav #pinnedNav {
+    /* #leftCol nav group container */
+    margin-top: 1em;
+}
+
+._3479 ._2jq5 {
+    /* #leftCol nav group link badge ( # of unread __s) */
+    height: 2em;
+}
+
+._3479 .uiSideNav .item {
+    height: 2em;
+    line-height: 2em;
 }
 
 ._4-k1 {
@@ -144,7 +192,7 @@ body:not(.SettingsPage) #globalContainer {
 
 ._586f, ._586i {
     /* ._586i = #blueBar search text - user input or selected page/profile */
-	color: #fff;
+    color: #fff;
 }
 
 ._59ap ._6m3 {
@@ -231,6 +279,34 @@ body:not(.SettingsPage) #globalContainer {
 ._5pbw {
     margin-bottom: .1429em;
     padding-right: 1.5714em;
+}
+
+._5plv .uiNarrowSideNav .uiSideNav .sideNavItem {
+    margin-left: -.3333em;
+}
+
+._5plv .uiSideNav .item {
+    border-radius: .1667em;
+    padding-left: 2.3333em;
+    padding-right: .3333em;
+}
+
+._5plv .uiSideNav .sideNavItem {
+    /* #leftCol nav group list item */
+    margin-left: -0.3333em;
+}
+
+._5plv .uiSideNav .sideNavItem .imgWrap img {
+    height:1.3333em;
+    width:1.3333em;
+}
+
+._5plv .uiSideNav .sideNavItem .linkWrap {
+    padding-right: .4167em;
+}
+
+._5plv .uiSideNav .sideNavItem .uiSideNavEditButton {
+    margin-top: .25em;
 }
 
 ._5qrt ._5vwe {
@@ -327,6 +403,13 @@ body:not(.SettingsPage) #globalContainer {
     margin: 0 .5em;
     min-width: 960px;
     width: auto;
+}
+
+._5vb_ #pagelet_pinned_nav .sideNavItem ._26tg,
+._5vb_ #pagelet_bookmark_nav .sideNavItem ._26tg {
+    margin-top: .25em;
+    height: 1em;
+    width: 1em;
 }
 
 ._5vb_ ._5qrt .ego_section .ego_unit {
@@ -511,8 +594,8 @@ body:not(.SettingsPage) #globalContainer {
 
 .fbxWelcomeBoxBlock .fbxWelcomeBoxImg {
     border-radius: .25em;
-    height: 3.3333em;
-    width: 3.3333em;
+    height: 3.3333em !important;
+    width: 3.3333em !important;
 }
 
 body:not(.SettingsPage) .hasLeftCol #headerArea {
@@ -555,6 +638,19 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
 
 .mtm {
     margin-top: .8333em;
+}
+
+.mts {
+    margin-top: .4167em;
+}
+
+.prs {
+    /* container for #leftCol current user info */
+    padding-right: .4167em;
+}
+
+.prs > ._6a._6b:first-child {
+    height: 3.3333em !important;
 }
 
 .sx_d52e6e {
