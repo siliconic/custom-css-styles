@@ -2,7 +2,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.0.2 (2014-05-03)
+ver 1.0.3 (2014-05-04)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -190,7 +190,8 @@ body:not(.SettingsPage) #globalContainer {
     opacity: .6;
 }
 
-._586f, ._586i {
+._5861 ._586f,
+._5861 ._586i {
     /* ._586i = #blueBar search text - user input or selected page/profile */
     color: #fff;
 }
@@ -682,12 +683,38 @@ html #content {
     width: 100%;
 }
 
-html body:not(.SettingsPage) #contentArea {
+html body.home #contentArea {
     order: -1;
 }
 
-html body:not(.SettingsPage) #contentCol {
+html body.home #contentCol {
     display: flex;
+  flex-wrap: wrap;
+  min-width: 817px; /* hard-coded for now */
+}
+
+html body.home #contentCol > div:first-of-type:last-of-type {
+    display: flex;
+}
+
+html body.home #contentCol #headerArea {
+  	margin: 0 auto;
+    order: -2;
+}
+
+html body.home #contentCol #headerArea:after {
+  clear: both;
+content: ".";
+display: block;
+font-size: 0;
+height: 0;
+line-height: 0;
+visibility: hidden;
+}
+
+html body.timelineLayout #contentCol {
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
@@ -696,4 +723,13 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     margin: 0 auto;
     min-width: 496px;
     width: 40em;
+}
+
+@media only screen and (max-width: 1031px) {
+  html body.home #contentCol {
+    width: 817px;
+  }
+  html body.home #contentArea {
+    margin: 0;
+  }
 }
