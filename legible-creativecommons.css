@@ -1,0 +1,48 @@
+/*
+Legible Licenses (for Creative Commons)
+by siliconic
+for creativecommons.org
+ver 1.0 (2015-05-05)
+
+find more styles + updates + give me some feedback @
+userstyles.org/users/258518
+stylebot.me/users/siliconic
+github.com/siliconic
+*/
+
+#header, #footer {
+  font-size: .64em;
+}
+
+#header a, #footer a {
+  color: lightgrey;
+}
+
+blockquote {
+  border: 1px solid lightgrey;
+  box-shadow: -.6em .6em 1.6em lightgrey;
+  margin: 1.6em .6em;
+  padding: 1em;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+  margin: 0 auto;
+  max-width: 40em;
+  padding: 1em;
+}
+
+li {
+  margin-bottom: 1em;
+  margin-top: .5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  font-size: .9em;
+  line-height: 1.4em;
+}
