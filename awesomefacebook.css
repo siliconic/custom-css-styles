@@ -2,7 +2,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.0.3 (2014-05-04)
+ver 1.0.3 (2014-05-07)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -51,6 +51,10 @@ body:not(.SettingsPage) #globalContainer {
     display: block;
     font-size: .83em;
     margin-bottom: .1667em;
+}
+
+.UFIComment .UFICommentBody {
+    opacity:.75;
 }
 
 .UFIRow {
@@ -142,6 +146,11 @@ body:not(.SettingsPage) #globalContainer {
     margin-top: -1em;
 }
 
+._53ir {
+	/* news topic featured article/link container */
+    margin: .6667em 0 .25em;
+}
+  
 ._54bx {
     /* news feed infobox: "similar to ___" */
     width: 40em;
@@ -201,6 +210,15 @@ body:not(.SettingsPage) #globalContainer {
     max-height: none;
 }
 
+._59ap ._59tj {
+    padding-top: .75em;
+}
+
+._5cwb ._59tj {
+    /* news topic byline */
+    padding-top: .75em;
+    position: relative;
+}
 ._5h55 ._1ui7 {
     /* news feed - infobox - "Related" stories - text summary/snippet */
     opacity: .64;
@@ -241,7 +259,8 @@ body:not(.SettingsPage) #globalContainer {
 ._5p3y ._5pbx {
     /* news feed item - original actor's comment text */
     /* margin was 1em 1px 0 */
-    font-size: 1.1538em; /* was 1.2308em = 16px */
+    font-size: 1.2308em; /* was 1.1538em = 15px */
+    margin-top: 1em;
 }
 
 ._5p3y ._5vwg {
@@ -377,6 +396,13 @@ body:not(.SettingsPage) #globalContainer {
     padding: 1em;
 }
 
+._5v3q ._4-eo {
+	margin:auto;
+}
+._5v3q ._4-eo img {
+	border-radius:.4em;
+}
+    
 ._5v3q ._5pbx p {
     margin: .5em 0;
 }
@@ -439,17 +465,19 @@ body:not(.SettingsPage) #globalContainer {
     opacity: .87;
     padding-left: .6667em;
     padding-top: 1.0833em;
-    width: 12.6154em;
+    width: 13.6667em;
 }
 
 ._5vb_.hasLeftCol ._5r-_ div#rightCol {
     padding-right: 0.5833em;
+  	width: 23.3333em;
 }
 
 ._5vsi {
     font-size: .8em;
     margin-left: .6em;
     margin-top: .8333em;
+	opacity: .8;
 }
 
 ._5vsi .UFIBlingBox {
@@ -543,17 +571,18 @@ body:not(.SettingsPage) #globalContainer {
 ._6m3 {
     /* news feed item attachment - text container */
     font-size: 1em;
-    height: inherit;
+    height: 11em;
+	margin: .8333em 1em;
 }
 
 ._6m5 {
-    height: auto;
+    height: auto !important;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 100% !important;
 }
 
-._6m6 {
+._6m6, ._6m6._6m6._6m6._6m6 {
     /* news feed item attachment - title */
     font-size: 1.5em;
     letter-spacing: -1px;
@@ -562,8 +591,9 @@ body:not(.SettingsPage) #globalContainer {
     max-height: 6.1111em;
 }
 
-._6m7 {
+._6m7, ._6m7._6m7._6m7._6m7 {
     /* news feed attachment item - lede (below headline) */
+  	/* max-height is 1em less than fb's default, so to accomodate the larger font size */
     line-height: 1.3333em;
     max-height: 6.6667em;
     opacity: .64;
@@ -615,6 +645,10 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
     align-self: stretch;
 }
 
+.homeFixedLayout div#contentArea {
+    padding-bottom: 1.6667em;
+}
+  
 .listMemberFacepile {
     border-radius: .4em;
     overflow: hidden;
@@ -679,18 +713,13 @@ div._5t_y {
     margin: 0;
 }
 
-html #content {
-    width: 100%;
-}
-
 html body.home #contentArea {
     order: -1;
 }
 
 html body.home #contentCol {
-    display: flex;
-  flex-wrap: wrap;
-  min-width: 817px; /* hard-coded for now */
+	display: flex;
+    flex-wrap: wrap;
 }
 
 html body.home #contentCol > div:first-of-type:last-of-type {
@@ -703,33 +732,38 @@ html body.home #contentCol #headerArea {
 }
 
 html body.home #contentCol #headerArea:after {
-  clear: both;
-content: ".";
-display: block;
-font-size: 0;
-height: 0;
-line-height: 0;
-visibility: hidden;
+    clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
 }
 
 html body.timelineLayout #contentCol {
-  margin: 0 auto;
-  max-width: 1000px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
+html ._5vb_.hasLeftCol #contentCol {
+    margin-left: 14.3333em;
+    min-height: 50em;
+    padding-left: .9167em;
+    padding-top: 1em;
+}
+html ._5vb_._5vb_.hasLeftCol div#contentArea {
+    padding-right: .8333em;
+}
 html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     /* News Feed container */
     float: none;
     margin: 0 auto;
-    min-width: 496px;
-    width: 40em;
+    width: 41.3333em;
 }
 
-@media only screen and (max-width: 1031px) {
-  html body.home #contentCol {
-    width: 817px;
-  }
-  html body.home #contentArea {
-    margin: 0;
+@media only screen and (max-width: 1034px) {
+  html, body {
+    width: 1034px;
   }
 }
