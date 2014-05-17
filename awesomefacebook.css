@@ -2,13 +2,63 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.0.3 (2014-05-07)
+ver 1.0.4 (2014-05-17)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
 stylebot.me/users/siliconic
 github.com/siliconic
 */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxvR_54zmj3SbGZQh3vCOwvY.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxuw_rQOTGi-AJs5XCWaKIhU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxhbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+}
+
 
 #fbNotificationsFlyout li .fwb {
     /* #blueBar notifications - names of actors/pages */
@@ -146,6 +196,10 @@ body:not(.SettingsPage) #globalContainer {
     margin-top: -1em;
 }
 
+._53iq ._5xia {
+	margin-top: 0;
+}
+
 ._53ir {
 	/* news topic featured article/link container */
     margin: .6667em 0 .25em;
@@ -219,6 +273,13 @@ body:not(.SettingsPage) #globalContainer {
     padding-top: .75em;
     position: relative;
 }
+
+._5cwb._6m4 ._59tj
+{
+  /* remove top margin */
+  margin-top: 0;
+}
+
 ._5h55 ._1ui7 {
     /* news feed - infobox - "Related" stories - text summary/snippet */
     opacity: .64;
@@ -250,6 +311,7 @@ body:not(.SettingsPage) #globalContainer {
 ._5p3y ._5pbw {
     /* news feed item ActorName */
     /* trialed a smaller font-size (.92em) */
+  font-size: 1em;
 }
 
 ._5p3y ._5pbw.mbs {
@@ -259,8 +321,16 @@ body:not(.SettingsPage) #globalContainer {
 ._5p3y ._5pbx {
     /* news feed item - original actor's comment text */
     /* margin was 1em 1px 0 */
-    font-size: 1.2308em; /* was 1.1538em = 15px */
+    font-size: 1rem;
     margin-top: 1em;
+}
+
+._5p3y ._5pbx p + p {
+	margin-top: 1em !important;
+}
+
+._5p3y ._5pbx>p:last-of-type {
+	display: block;
 }
 
 ._5p3y ._5vwg {
@@ -409,7 +479,7 @@ body:not(.SettingsPage) #globalContainer {
 
 ._5v3q ._5x46 {
     /* fb default = 11px @ 13px font */
-    margin-bottom: .8461em;
+    margin-bottom: 0; /* .8431 */
 }
 
 ._5v3q .fbStoryAttachmentImage {
@@ -585,7 +655,6 @@ body:not(.SettingsPage) #globalContainer {
 ._6m6, ._6m6._6m6._6m6._6m6 {
     /* news feed item attachment - title */
     font-size: 1.5em;
-    letter-spacing: -1px;
     line-height: 1.222em;
     margin-bottom: .3571em;
     max-height: 6.1111em;
@@ -752,9 +821,11 @@ html ._5vb_.hasLeftCol #contentCol {
     padding-left: .9167em;
     padding-top: 1em;
 }
+
 html ._5vb_._5vb_.hasLeftCol div#contentArea {
     padding-right: .8333em;
 }
+
 html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     /* News Feed container */
     float: none;
@@ -766,4 +837,107 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   html, body {
     width: 1034px;
   }
+}
+
+._5p3y[dir="ltr"], ._5p3y[dir="ltr"] button, ._5p3y[dir="ltr"] input, ._5p3y[dir="ltr"] label, ._5p3y[dir="ltr"] select, ._5p3y[dir="ltr"] td, ._5p3y[dir="ltr"] textarea, ._5p3y[dir="ltr"] .uiMentionsInput .highlighter, ._5p3y[dir="ltr"] .uiButtonText, ._5p3y[dir="ltr"] .uiButton input, ._5p3y[dir="ltr"] .uiLinkButton input, ._5p3y[dir="ltr"] button.as_link, ._5p3y[dir="ltr"] .fbChatSidebar, ._5p3y[dir="ltr"] .fbDock, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .uiStreamMessage, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .text_exposed_link, ._5p3y[dir="ltr"] .uiTooltipX .tooltipContent, ._5p3y[dir="ltr"] a[role="button"], ._5p3y[dir="rtl"] *[dir="ltr"] {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+._5pbw, ._5pbx {
+	line-height: 1.5em !important;
+}
+
+.fwb {
+	font-weight: 600 !important;
+}
+  
+._6m6, ._6m6._6m6._6m6._6m6 {
+	font-weight: 400 !important;
+	font-size: 1.4em !important;
+}
+  
+._5p3y ._5pbx {
+	margin-bottom: .6em;
+}
+
+._5p3y .fsm, ._5p3y .uiHeader h3, ._5p3y h4, ._5p3y h5, ._5p3y h6, ._5p3y .UFICommentContent ._5v47 {
+	font-size: 1em;
+}
+
+/* BEGIN notifications flyout */
+
+.notifNegativeBase .fbJewelFlyout .jewelHeader, #tinymanNavWrapper .fbJewelFlyout .jewelHeader
+{
+	padding: .6667em .6667em .5em .6667em;
+	border-top-left-radius: .25em;
+	border-top-right-radius: .25em;
+}
+
+._5p3y #fbNotificationsFlyout ._50-t > div {
+    height: 40.6667em !important;
+  	width: 35.8667em !important;
+}
+
+._5p3y #fbNotificationsFlyout ._50-t .uiScrollableAreaBody {
+	width: 35.8667em !important;
+}
+
+._5bfg #jewelContainer .fbJewelFlyout, ._5bfg #accountSettingsFlyout {
+	width: 35.8667em;
+}
+
+._33e {
+	padding: .5833em 2.25em .5833em .6667em;
+}
+
+._33f {
+	padding-top:.25em;
+}
+
+._33h {
+	border-radius:.4em;
+}
+
+._33i {
+	margin: 1.3333em auto;
+}
+
+._10cu {
+	height: 1.3333em;
+	width: 1.3333em;
+}
+
+._8r {
+	margin-right:.4167em;
+}
+
+.uiScrollableArea.nofade .uiScrollableAreaWrap,
+.uiScrollableArea.fade .uiScrollableAreaWrap {
+	margin-right: -2.5em;
+	padding-right: 2.5em;
+}
+
+.fbJewelFlyout .jewelFooter a {
+	padding: .6667em;
+}
+
+.notifNegativeBase .fbJewelFlyout .jewelFooter a {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+}
+
+.notifNegativeBase .fbJewelFlyout, #tinymanNavWrapper .fbJewelFlyout {
+	border-radius: .25em;
+	box-shadow: 0 .25em .6667em rgba(0, 0, 0, .25); 
+}
+
+/* END notifications flyout */              
+
+._5v3q ._1qbu {
+	font-size: 1.125em !important;
+	letter-spacing: -1px;
+}
+
+._5861 ._586j, ._5861 ._586k, ._5861 ._586f, ._5861 ._586i {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
