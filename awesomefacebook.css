@@ -2,7 +2,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.1.0.4 (2014-06-20)
+ver 1.1.0.5 (2014-06-21)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -597,7 +597,7 @@ body.SettingsPage #globalContainer {
     /*._5plv._3479, ._42ef*/
     opacity: .87;
     padding-left: .6667em;
-    padding-top: 2.6rem;
+    padding-top: 0;
     width: 20rem;
 }
 
@@ -764,8 +764,6 @@ body.SettingsPage #globalContainer {
 
 .fbxWelcomeBoxBlock .fbxWelcomeBoxImg {
     border-radius: .25em;
-    height: 3.3333em !important;
-    width: 3.3333em !important;
 }
 
 body:not(.SettingsPage) .hasLeftCol #headerArea {
@@ -915,16 +913,11 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     display:flex;
 }
 
-html ._5pcb > div div {
-    display:inline-flex;
-    flex-wrap: wrap;
-}
 html ._5pcb > div div._4-u2 {
     max-width:33%;
     min-width:25%;
     box-sizing:border-box;
     background:transparent;
-    display:inline-block;
     width:auto !important;
 }
 html ._5pcb > div div._4-u2 div {
@@ -1062,9 +1055,6 @@ span.UFICommentBody {
     font-family:'Liberated Serif', serif;
 }
 
-#stream_pagelet {
-    display:inline;
-}
 #stream_pagelet > div:last-child {
     display:inline;
 }
@@ -1209,6 +1199,61 @@ html ._5pcb
     flex-direction:column;
     flex-wrap:wrap;
 }
-div._4ikz {
-    display:inline !important;
+
+/***********************************************************************************************/
+
+
+div#pagelet_bookmark_nav li.sideNavItem {
+    font-size: .75rem;
+    opacity: .75;
+    font-weight: 300;
+}
+div#pagelet_pinned_nav {
+    margin-bottom: 1rem;
+    padding-bottom: .6rem;
+    padding-top: .6rem;
+}
+div#pagelet_bookmark_nav li.sideNavItem:hover {
+    font-weight: inherit;
+    opacity: 1;
+}
+._5vb_.hasLeftCol ._5r-_ div#rightCol {
+    width: auto;
+    max-width: 20em;
+    box-sizing: border-box;
+}
+a.fbxWelcomeBoxBlock img.fbxWelcomeBoxImg {
+    width: 3rem !important;
+    height: auto;
+}
+._5vb_.hasLeftCol div#leftCol {
+    padding-top: 1rem;
+}
+div#contentCol {
+    padding-top: 1rem;
+}
+.prs._6a > div._6a._6b:first-child {
+    height: inherit !important;
+}
+#stream_pagelet div._4ikz {
+    display: inline-block;
+}
+#stream_pagelet div._4ikz > div {
+    flex-wrap: wrap;
+}
+body.hasLeftCol.home.composerExpanded._5vb_.fbx.hasSmurfbar.hasPrivacyLite._5p3y.webkit.chrome.Locale_en_US {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+html div._5pcb {
+    display: flex;
+    flex-direction: column;
+}
+html ._5pcb > div div._4-u2 {
+    min-width: initial !important;
+}
+img._6m5.fbStoryAttachmentImage.img {
+    margin: 0;
+    width: 100% !important;
 }
