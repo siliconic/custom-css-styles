@@ -83,34 +83,40 @@ body.SettingsPage #globalContainer {
     /* news feed rightCol section dividers */
 }
 
-#userNavigation {
+#userNavigation
+{
     font-size: .75rem;
 }
 
-*._5vsj .UFIRow {
+*._5vsj .UFIRow
+{
     margin: 0 1em;
     padding: .3333em 0;
 }
 
-*._5vsj .UFIRow.UFIPagerRow, *._5vsj .UFIRow.UFILikeSentence, *._5vsj .UFIRow.UFIShareRow {
+*._5vsj .UFIRow.UFIPagerRow, *._5vsj .UFIRow.UFILikeSentence, *._5vsj .UFIRow.UFIShareRow
+{
     padding-bottom: .5833em;
     padding-top: .75em;
 }
 
-.UFIComment .UFICommentActorName {
+.UFIComment .UFICommentActorName
+{
     display: block;
     font-size: .625rem;
     margin-bottom: .1667em;
-	font-weight:normal;
-  opacity:.8;
-  cursor:default;
+    font-weight:normal;
+    opacity:.8;
+    cursor:default;
 }
-.UFIComment:hover .UFICommentActorName {
-  opacity:1;
-    }
-    .UFICommentActorName:hover {
-      text-decoration:none;
-        }
+.UFIComment:hover .UFICommentActorName
+{
+    opacity:1;
+}
+.UFICommentActorName:hover
+{
+    text-decoration:none;
+}
 
 .UFIComment .UFICommentBody {
     opacity:.8125;
@@ -160,21 +166,21 @@ body.SettingsPage #globalContainer {
 }
 
 ._29k {
-  vertical-align:bottom;
-  min-height:4em;
+    vertical-align:bottom;
+    min-height:4em;
     height:auto; /* 3.3333em */
     padding-bottom:.4em;
     margin-bottom:0;
-  width:auto;
-  max-width:100%;
-  display:flex;
-  flex-direction:row-reverse;
+    width:auto;
+    max-width:100%;
+    display:flex;
+    flex-direction:row-reverse;
   }
 
 ._29k ._6a._6b:nth-of-type(2) {
-  min-height:3.333em;
-  height:auto;
-          box-sizing:border-box;
+    min-height:3.333em;
+    height:auto;
+    box-sizing:border-box;
 }
         
 ._2jq5 {
@@ -215,7 +221,7 @@ body.SettingsPage #globalContainer {
 
 ._4-u2._5v6e {
     background: inherit;
-  	color:inherit;
+    color:inherit;
     border: none;
     /* rightColumnWrapper (i.e. right-hand ads column) */
     opacity: .9;
@@ -226,11 +232,11 @@ body.SettingsPage #globalContainer {
 }
 
 ._53iq ._5xia {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 ._53ir {
-	/* news topic featured article/link container */
+    /* news topic featured article/link container */
     margin: .6667em 0 .25em;
 }
   
@@ -261,7 +267,7 @@ body.SettingsPage #globalContainer {
     /* #blueBar search box */
     background-color: inherit;
     box-shadow: none;
-  font-size:1.6rem;
+    font-size:1.6rem;
 }
 
 ._585_ {
@@ -306,8 +312,8 @@ body.SettingsPage #globalContainer {
 
 ._5cwb._6m4 ._59tj
 {
-  /* remove top margin */
-  margin-top: 0;
+    /* remove top margin */
+    margin-top: 0;
 }
 
 ._5h55 ._1ui7 {
@@ -321,7 +327,7 @@ body.SettingsPage #globalContainer {
 }
 
 ._5p3y {
-  font-size:inherit;
+    font-size:inherit;
     /* PAGE FONT SIZE (overrides px based defn) */
   }
   
@@ -339,7 +345,7 @@ body.SettingsPage #globalContainer {
 }
 
 #fbNotificationFlyout {
-  font-size:.8rem;
+    font-size:.8rem;
 }
 
 
@@ -358,21 +364,21 @@ body.SettingsPage #globalContainer {
     /* news feed item - original actor's comment text */
     /* margin was 1em 1px 0 */
     font-size: 1.25rem;
-  font-family:'Liberation Sans', Helvetica, 'Open Sans', sans-serif;
+    font-family:'Liberation Sans', Helvetica, 'Open Sans', sans-serif;
     margin:.5em auto 0;
-  line-height:1.5em !important;
+    line-height:1.5em !important;
 }
 
 ._5p3y ._5pbx p + p {
-	margin-top: 1em !important;
+    margin-top: 1em !important;
 }
 
 ._5p3y ._5pbx>p:last-of-type {
-	display: block;
+    display: block;
 }
 
 ._5pcp._5vsi {
-  font-size:.8rem;
+    font-size:.8rem;
 }
 
 
@@ -413,8 +419,8 @@ body.SettingsPage #globalContainer {
 }
 
 ._5pcp {
-  font-size:.875em;
-  }
+    font-size:.875em;
+}
 ._5plv .uiNarrowSideNav .uiSideNav .sideNavItem {
     margin-left: -.3333em;
 }
@@ -441,8 +447,8 @@ body.SettingsPage #globalContainer {
 }
 
 ._5plv .uiSideNav .sideNavItem .linkWrap {
-  max-width:12em;
-      }
+    max-width:12em;
+}
   
 
 ._5plv .uiSideNav .sideNavItem .uiSideNavEditButton {
@@ -476,7 +482,7 @@ body.SettingsPage #globalContainer {
 
 ._5r-_ ._5my2._5my9
 {
-	background:rgba(0,0,0,.125);
+    background:rgba(0,0,0,.125);
 }
 
 ._5r-_ .fbReminders .fbRemindersStory {
@@ -523,10 +529,10 @@ body.SettingsPage #globalContainer {
 }
 
 ._5v3q ._4-eo {
-	margin:auto;
+    margin:auto;
 }
 ._5v3q ._4-eo img {
-	border-radius:.4em;
+    border-radius:.4em;
 }
     
 ._5v3q ._5pbx p {
@@ -556,7 +562,7 @@ body.SettingsPage #globalContainer {
     padding: 0 .5em;
     min-width: 960px;
     width: 60%;
-  	margin: 0 auto;
+    margin: 0 auto;
 }
 
 ._5vb_ #pagelet_pinned_nav .sideNavItem ._26tg,
@@ -603,7 +609,7 @@ body.SettingsPage #globalContainer {
     font-size: .8em;
     margin-left: .6em;
     margin-top: .8333em;
-	opacity: .8;
+    opacity: .8;
 }
 
 ._5vsi .UFIBlingBox {
@@ -675,7 +681,7 @@ body.SettingsPage #globalContainer {
 
 ._5vsj._5vsj._5vsj {
     /* margin: .6667em -1em -1em; */
-  margin:.6667em -1em -1em;
+    margin:.6667em -1em -1em;
 }
 
 ._5vw4 .img {
@@ -684,8 +690,8 @@ body.SettingsPage #globalContainer {
 }
 
 ._6a._6b {
-  height:auto !important;
-    }
+    height:auto !important;
+}
 
 ._6l- {
     /* container for news feed image */
@@ -703,7 +709,7 @@ body.SettingsPage #globalContainer {
     /* news feed item attachment - text container */
     font-size: .75em;
     height: 11em;
-	margin: .8333em 1em;
+    margin: .8333em 1em;
 }
 
 ._6m5 {
@@ -711,8 +717,7 @@ body.SettingsPage #globalContainer {
     margin-left: auto;
     margin-right: auto;
     width: auto !important;
-  	max-width:100% !important;
-  
+    max-width:100% !important;
 }
 
 ._6m6, ._6m6._6m6._6m6._6m6 {
@@ -726,11 +731,11 @@ body.SettingsPage #globalContainer {
 
 ._6m7, ._6m7._6m7._6m7._6m7 {
     /* news feed attachment item - lede (below headline) */
-  	/* max-height is 1em less than fb's default, so to accomodate the larger font size */
+    /* max-height is 1em less than fb's default, so to accomodate the larger font size */
     line-height: 1.3333em;
     max-height: 6.6667em;
     opacity: .64;
-  	font-size:.875em;
+    font-size:.875em;
 }
 
 ._6ma ._6mb {
@@ -772,9 +777,9 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
     align-self: stretch;
     margin: 0 auto;
     width: auto;
-  max-width:76rem;
-  display:flex;
-  flex-direction:column;
+    max-width:76rem;
+    display:flex;
+    flex-direction:column;
 }
 
 .hasLeftCol ._5r-_.homeWiderContent div#rightCol {
@@ -831,7 +836,7 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
 
 .UFILikeSentence,
 .UFIShareRow {
-  font-size:.75rem;
+    font-size:.75rem;
 }
   
 @media only screen and (min-width: 1340px) {
@@ -856,14 +861,14 @@ div._5t_y {
 }
 
 html body {
-  font-size:1em;
+    font-size:1em;
 }
 html body.home #contentArea {
     order: -1;
 }
 
 html body.home #contentCol {
-	display: flex;
+    display: flex;
 }
 
 html body.home #contentCol > div:first-of-type:last-of-type {
@@ -871,18 +876,18 @@ html body.home #contentCol > div:first-of-type:last-of-type {
 }
 
 html body.home #contentCol #headerArea {
-  	margin: 0 auto;
+    margin: 0 auto;
     order: -2;
 }
 
 html body.home #contentCol #headerArea:after {
     clear: both;
-	content: ".";
-	display: block;
-	font-size: 0;
-	height: 0;
-	line-height: 0;
-	visibility: hidden;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
 
 html body.timelineLayout #contentCol {
@@ -904,26 +909,25 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     float: none;
     margin: 0;
     width: auto;
-  min-width:50%;
-  box-sizing:border-box;
-  	display:flex;
+    min-width:50%;
+    box-sizing:border-box;
+    display:flex;
 }
 
 html ._5pcb > div div {
-  display:inline-flex;
-  flex-wrap: wrap;
-  
+    display:inline-flex;
+    flex-wrap: wrap;
 }
 html ._5pcb > div div._4-u2 {
-  max-width:33%;
-  min-width:25%;
-  box-sizing:border-box;
-  background:transparent;
-  display:inline-block;
-  width:auto !important;
+    max-width:33%;
+    min-width:25%;
+    box-sizing:border-box;
+    background:transparent;
+    display:inline-block;
+    width:auto !important;
 }
 html ._5pcb > div div._4-u2 div {
-  display:block;
+    display:block;
 }
 
 @media only screen and (max-width: 1034px) {
@@ -932,197 +936,198 @@ html ._5pcb > div div._4-u2 div {
   }
 }
 
-._5p3y[dir="ltr"], ._5p3y[dir="ltr"] button, ._5p3y[dir="ltr"] input, ._5p3y[dir="ltr"] label, ._5p3y[dir="ltr"] select, ._5p3y[dir="ltr"] td, ._5p3y[dir="ltr"] textarea, ._5p3y[dir="ltr"] .uiMentionsInput .highlighter, ._5p3y[dir="ltr"] .uiButtonText, ._5p3y[dir="ltr"] .uiButton input, ._5p3y[dir="ltr"] .uiLinkButton input, ._5p3y[dir="ltr"] button.as_link, ._5p3y[dir="ltr"] .fbChatSidebar, ._5p3y[dir="ltr"] .fbDock, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .uiStreamMessage, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .text_exposed_link, ._5p3y[dir="ltr"] .uiTooltipX .tooltipContent, ._5p3y[dir="ltr"] a[role="button"], ._5p3y[dir="rtl"] *[dir="ltr"] {
-	font-family: 'Open Sans', 'Liberation Sans', 'Open Sans', Helvetica, sans-serif; /* native Linux font is superior. */
+._5p3y[dir="ltr"], ._5p3y[dir="ltr"] button, ._5p3y[dir="ltr"] input, ._5p3y[dir="ltr"] label, ._5p3y[dir="ltr"] select, ._5p3y[dir="ltr"] td, ._5p3y[dir="ltr"] textarea, ._5p3y[dir="ltr"] .uiMentionsInput .highlighter, ._5p3y[dir="ltr"] .uiButtonText, ._5p3y[dir="ltr"] .uiButton input, ._5p3y[dir="ltr"] .uiLinkButton input, ._5p3y[dir="ltr"] button.as_link, ._5p3y[dir="ltr"] .fbChatSidebar, ._5p3y[dir="ltr"] .fbDock, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .uiStreamMessage, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .text_exposed_link, ._5p3y[dir="ltr"] .uiTooltipX .tooltipContent, ._5p3y[dir="ltr"] a[role="button"], ._5p3y[dir="rtl"] *[dir="ltr"]
+{
+    font-family: 'Open Sans', 'Liberation Sans', 'Open Sans', Helvetica, sans-serif; /* native Linux font is superior. */
 }
   ._5p3y textarea.mentionsTextarea
 {
-  font-family:'Liberation Sans','Open Sans',Helvetica,sans-serif;
+    font-family:'Liberation Sans','Open Sans',Helvetica,sans-serif;
 }
 
 ._5pbw, ._5pbx {
-	line-height: 1.44em !important;
+    line-height: 1.44em !important;
 }
 
 ._5p3y .fsm, ._5p3y .uiHeader h3, ._5p3y h4, ._5p3y h5, ._5p3y h6, ._5p3y .UFICommentContent ._5v47 {
-	font-size: 1em;
+    font-size: 1em;
 }
 
 /* BEGIN notifications flyout */
 
 .notifNegativeBase .fbJewelFlyout .jewelHeader, #tinymanNavWrapper .fbJewelFlyout .jewelHeader
 {
-	padding: .6667em .6667em .5em .6667em;
-	border-top-left-radius: .25em;
-	border-top-right-radius: .25em;
+    padding: .6667em .6667em .5em .6667em;
+    border-top-left-radius: .25em;
+    border-top-right-radius: .25em;
 }
 
 ._5p3y #fbNotificationsFlyout ._50-t > div {
     height: 40.6667em !important;
-  	width: 35.8667em !important;
+    width: 35.8667em !important;
 }
 
 ._5p3y #fbNotificationsFlyout ._50-t .uiScrollableAreaBody {
-	width: 35.8667em !important;
+    width: 35.8667em !important;
 }
 
 ._5p3y ._5pbw {
-  font-size:1em;
-    }
+    font-size:1em;
+}
 ._5bfg #jewelContainer .fbJewelFlyout, ._5bfg #accountSettingsFlyout {
-	width: 35.8667em;
+    width: 35.8667em;
 }
 
 ._33e {
-	padding: .5833em 2.25em .5833em .6667em;
+    padding: .5833em 2.25em .5833em .6667em;
 }
 
 ._33f {
-	padding-top:.25em;
+    padding-top:.25em;
 }
 
 ._33h {
-	border-radius:.4em;
+    border-radius:.4em;
 }
 
 ._33i {
-	margin: 1.3333em auto;
+    margin: 1.3333em auto;
 }
 
 ._10cu {
-	height: 1.3333em;
-	width: 1.3333em;
+    height: 1.3333em;
+    width: 1.3333em;
 }
 
 ._8r {
-	margin-right:.4167em;
+    margin-right:.4167em;
 }
 
 .uiScrollableArea.nofade .uiScrollableAreaWrap,
 .uiScrollableArea.fade .uiScrollableAreaWrap {
-	margin-right: -2.5em;
-	padding-right: 2.5em;
+    margin-right: -2.5em;
+    padding-right: 2.5em;
 }
 
 .fbJewelFlyout .jewelFooter a {
-	padding: .6667em;
+    padding: .6667em;
 }
 
 .notifNegativeBase .fbJewelFlyout .jewelFooter a {
-	border-bottom-left-radius: .25em;
-	border-bottom-right-radius: .25em;
+    border-bottom-left-radius: .25em;
+    border-bottom-right-radius: .25em;
 }
 
 .notifNegativeBase .fbJewelFlyout, #tinymanNavWrapper .fbJewelFlyout {
-	border-radius: .25em;
-	box-shadow: 0 .25em .6667em rgba(0, 0, 0, .25); 
+    border-radius: .25em;
+    box-shadow: 0 .25em .6667em rgba(0, 0, 0, .25); 
 }
 
 /* END notifications flyout */              
 
 ._5v3q ._1qbu {
-	font-size: 1rem !important;
-  font-family:'Open Sans';
-  margin:0 0 0 -.6rem;
-  padding: 1.6rem 1em 0;
+    font-size: 1rem !important;
+    font-family:'Open Sans';
+    margin:0 0 0 -.6rem;
+    padding: 1.6rem 1em 0;
 }
 
 ._5v3q ._5mxv {
-  margin-top:0;
-  padding:1.6rem 0 0 0;
-    }
+    margin-top:0;
+    padding:1.6rem 0 0 0;
+}
 
 
 
 ._5861 ._586j, ._5861 ._586k, ._5861 ._586f, ._5861 ._586i {
-	font-family: 'Liberation Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Liberation Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .uiScaledImageContainer {
     width: 100% !important;
     height: auto !important;
-  }
+}
 
 .fbxWelcomeBoxName {
     width:auto;
-  }
+}
 
 body._5vb_ #globalContainer {
-  width:auto;
-  margin:0 auto;
+    width:auto;
+    margin:0 auto;
 }
 
 span.UFICommentBody {
-  font-family:'Liberated Serif', serif;
+    font-family:'Liberated Serif', serif;
 }
 
 #stream_pagelet {
-  display:inline;
+    display:inline;
 }
 #stream_pagelet > div:last-child {
-  display:inline;
+    display:inline;
 }
 ._4-u2 {
-      display:inline-block;
-    }
+    display:inline-block;
+}
 .uiScaledImageContainer img {
-  min-height:inherit;
-  }
+    min-height:inherit;
+}
 
 ._6b._6a:nth-of-type(2) {
-      vertical-align:bottom;
-      min-height:3.5rem;
-    }
+    vertical-align:bottom;
+    min-height:3.5rem;
+}
 
 ._46-i.img {
-      max-width:100%;
-      height:auto;
-    }
-    ._46-h {
-        max-width:100% !important;
-      }
+    max-width:100%;
+    height:auto;
+}
+._46-h {
+    max-width:100% !important;
+}
       
-      ._5rzs._5v6d ._5v6e
+._5rzs._5v6d ._5v6e
 {
-  width:auto;
-  max-width:100%;
+    width:auto;
+    max-width:100%;
 }
 
 .uiScaledImageContainer .scaledImageFitWidth
 {
-  width:100%;
-  max-width:100%;
-  height:auto;
+    width:100%;
+    max-width:100%;
+    height:auto;
 }
 
 ._5v3q ._4-eo
 {
-  width:100% !important;
-  max-width:100%;
+    width:100% !important;
+    max-width:100%;
 }
 
 div#rightCol div.rightColumnWrapper {
-  position:relative;
-  top:inherit;
-  left:inherit;
-  right:inherit;
-  bottom:inherit;
-  float:right;
+    position:relative;
+    top:inherit;
+    left:inherit;
+    right:inherit;
+    bottom:inherit;
+    float:right;
 }
 
 label
 {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 div#pagelet_composer > ._4-u2 {
-  width:100%;
-  box-sizing:border-box;
+    width:100%;
+    box-sizing:border-box;
 }
 
 ._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent
 {
-  font-size:1em;
+    font-size:1em;
 }
 
 
@@ -1134,7 +1139,7 @@ div#pagelet_composer > ._4-u2 {
 
 
 a._5pcq {
-  display:inline-block;
+    display:inline-block;
 }
 
 ._uhk
@@ -1150,65 +1155,59 @@ div#pagelet_rhc_footer.pagelet
 div._4ikz, div._4ikz > div {
     display:inline-flex;
 }
-  }
-  #page_bookmarklet_nav
-  {
-  }
-  
-  div._5plv .navHeader, div._5plv .navHeader a
-  {
+
+div._5plv .navHeader, div._5plv .navHeader a
+{
     font-size:1em;
-  }
+}
 
 ul.uiList
 {
-  width:100%;
+    width:100%;
 }
 
 ._5bfg #pageNav .navLink, ._5bfg #pageNav .navItem .navLink
 {
-  font-size:inherit;
+    font-size:inherit;
 }
 #pageNav._5bfj .tinyman .headerTinymanPhoto
 {
-  width:1.5rem !important;
-  height:auto !important;
+    width:1.5rem !important;
+    height:auto !important;
 }
 ._5681, ._5681 *
 {
-  font-size:1rem !important;
-  font-family:'Liberation Sans','Open Sans',Helvetica,sans-serif !important;
+    font-size:1rem !important;
+    font-family:'Liberation Sans','Open Sans',Helvetica,sans-serif !important;
 }
 html ._5pcb > div div._4-u2._la
 {
-  width:100% !important;
-  max-width:100% !important;
-  min-width:100% !important;
+    width:100% !important;
+    max-width:100% !important;
+    min-width:100% !important;
 }
 ._18s4 ._4_cj
 {
-  font-size:1em;
-  font-weight:300;
+    font-size:1em;
+    font-weight:300;
 }
 
 div._46-h._4-ep {
-  /* news feed photo post - image container */
-  height:auto !important;
+    /* news feed photo post - image container */
+    height:auto !important;
 }
 
 ._46-i {
     position:relative;
     top:inherit;
     left:inherit;
-  }
+}
 html ._5pcb
 {
-  display:inline-flex;
-  flex-direction:column;
-  flex-wrap:wrap;
-  }
+    display:inline-flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
 div._4ikz {
-  flex-wrap2:wrap;
-  flex-direction2:column;
-  display:inline !important;
+    display:inline !important;
 }
