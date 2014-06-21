@@ -2,7 +2,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.1.0.3 (2014-06-20)
+ver 1.1.0.4 (2014-06-20)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -708,8 +708,9 @@ body.SettingsPage #globalContainer {
 ._6m3 {
     /* news feed item attachment - text container */
     font-size: .75em;
-    height: 11em;
-    margin: .8333em 1em;
+    height: auto;
+    margin: 0 1em;
+    padding: .8333em 0;
 }
 
 ._6m5 {
