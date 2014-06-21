@@ -2,7 +2,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.0.4 (2014-05-17)
+ver 1.1.0 (2014-06-20)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -65,8 +65,8 @@ github.com/siliconic
     font-size: .92em;
 }
 
-body:not(.SettingsPage) #globalContainer {
-    min-width: 976px;
+body.SettingsPage #globalContainer {
+    min-width: inherit;
     width: 100%;
 }
 
@@ -84,7 +84,7 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 #userNavigation {
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 *._5vsj .UFIRow {
@@ -99,12 +99,21 @@ body:not(.SettingsPage) #globalContainer {
 
 .UFIComment .UFICommentActorName {
     display: block;
-    font-size: .83em;
+    font-size: .625rem;
     margin-bottom: .1667em;
+	font-weight:normal;
+  opacity:.8;
+  cursor:default;
 }
+.UFIComment:hover .UFICommentActorName {
+  opacity:1;
+    }
+    .UFICommentActorName:hover {
+      text-decoration:none;
+        }
 
 .UFIComment .UFICommentBody {
-    opacity:.75;
+    opacity:.8125;
 }
 
 .UFIRow {
@@ -120,7 +129,7 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 .UFIRow .fsm.UFICommentActions {
-    font-size: .83em;
+    font-size: .625em;
 }
 
 .uiSideNav .buttonWrap {
@@ -150,14 +159,33 @@ body:not(.SettingsPage) #globalContainer {
     margin: .1667em .4167em 0 0;
 }
 
+._29k {
+  vertical-align:bottom;
+  min-height:4em;
+    height:auto; /* 3.3333em */
+    padding-bottom:.4em;
+    margin-bottom:0;
+  width:auto;
+  max-width:100%;
+  display:flex;
+  flex-direction:row-reverse;
+  }
+
+._29k ._6a._6b:nth-of-type(2) {
+  min-height:3.333em;
+  height:auto;
+          box-sizing:border-box;
+}
+        
 ._2jq5 {
     /* #leftCol nav group link badge (i.e. # of unread ___s) */
     height: 1.8333em;
     width: 1.75em;
 }
 
+
 ._303 {
-    margin-right: .6667em;
+    margin-left:0;
 }
 
 ._3479 #sideNav #pinnedNav {
@@ -187,6 +215,7 @@ body:not(.SettingsPage) #globalContainer {
 
 ._4-u2._5v6e {
     background: inherit;
+  	color:inherit;
     border: none;
     /* rightColumnWrapper (i.e. right-hand ads column) */
     opacity: .9;
@@ -232,6 +261,7 @@ body:not(.SettingsPage) #globalContainer {
     /* #blueBar search box */
     background-color: inherit;
     box-shadow: none;
+  font-size:1.6rem;
 }
 
 ._585_ {
@@ -291,13 +321,13 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5p3y {
-    /* GLOBAL FONT SIZE BASE VALUE */
-    font-size: 13px;
-}
-
+  font-size:inherit;
+    /* PAGE FONT SIZE (overrides px based defn) */
+  }
+  
 ._5p3y #rightCol {
     /* 13px -> 12px */
-    font-size: .9231em;
+    font-size: 1em;
 }
 
 ._5p3y #rightCol button, ._5p3y #rightCol ._4jy0 {
@@ -308,10 +338,16 @@ body:not(.SettingsPage) #globalContainer {
     background: inherit;
 }
 
+#fbNotificationFlyout {
+  font-size:.8rem;
+}
+
+
+
 ._5p3y ._5pbw {
     /* news feed item ActorName */
-    /* trialed a smaller font-size (.92em) */
-  font-size: 1em;
+    /* trialed a smaller font-size (.92em, then .875em) */
+
 }
 
 ._5p3y ._5pbw.mbs {
@@ -321,8 +357,10 @@ body:not(.SettingsPage) #globalContainer {
 ._5p3y ._5pbx {
     /* news feed item - original actor's comment text */
     /* margin was 1em 1px 0 */
-    font-size: 1rem;
-    margin-top: 1em;
+    font-size: 1.25rem;
+  font-family:'Liberation Sans', Helvetica, 'Open Sans', sans-serif;
+    margin:.5em auto 0;
+  line-height:1.5em !important;
 }
 
 ._5p3y ._5pbx p + p {
@@ -333,6 +371,13 @@ body:not(.SettingsPage) #globalContainer {
 	display: block;
 }
 
+._5pcp._5vsi {
+  font-size:.8rem;
+}
+
+
+
+    
 ._5p3y ._5vwg {
     /* news feed sponsored ad col - title + url text */
     font-size: 1em;
@@ -353,10 +398,6 @@ body:not(.SettingsPage) #globalContainer {
     vertical-align: bottom;
 }
 
-._5p3y .fsm {
-    font-size: 1em;
-}
-
 ._5p3y label, ._5p3y input {
     font-size: inherit !important;
 }
@@ -371,6 +412,9 @@ body:not(.SettingsPage) #globalContainer {
     padding-right: 1.5714em;
 }
 
+._5pcp {
+  font-size:.875em;
+  }
 ._5plv .uiNarrowSideNav .uiSideNav .sideNavItem {
     margin-left: -.3333em;
 }
@@ -393,7 +437,13 @@ body:not(.SettingsPage) #globalContainer {
 
 ._5plv .uiSideNav .sideNavItem .linkWrap {
     padding-right: .4167em;
+  
 }
+
+._5plv .uiSideNav .sideNavItem .linkWrap {
+  max-width:12em;
+      }
+  
 
 ._5plv .uiSideNav .sideNavItem .uiSideNavEditButton {
     margin-top: .25em;
@@ -421,6 +471,12 @@ body:not(.SettingsPage) #globalContainer {
     /* news feed right col - trending items */
     margin-left: -0.3333em;
     padding: .25em .3333em;
+
+}
+
+._5r-_ ._5my2._5my9
+{
+	background:rgba(0,0,0,.125);
 }
 
 ._5r-_ .fbReminders .fbRemindersStory {
@@ -449,7 +505,7 @@ body:not(.SettingsPage) #globalContainer {
     everything else = news feed right col headers
     */
     /*was .9167em but was cascading. true relative solution requires more tinkering.*/
-    font-size: 11px;
+    font-size: .75rem;
     line-height: 1em;
 }
 
@@ -463,7 +519,7 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5v3q {
-    padding: 1em;
+    padding: 1rem !important;
 }
 
 ._5v3q ._4-eo {
@@ -497,9 +553,10 @@ body:not(.SettingsPage) #globalContainer {
 }
 
 ._5vb_ #blueBarHolder #blueBar #pageHead {
-    margin: 0 .5em;
+    padding: 0 .5em;
     min-width: 960px;
-    width: auto;
+    width: 60%;
+  	margin: 0 auto;
 }
 
 ._5vb_ #pagelet_pinned_nav .sideNavItem ._26tg,
@@ -534,13 +591,12 @@ body:not(.SettingsPage) #globalContainer {
     /*._5plv._3479, ._42ef*/
     opacity: .87;
     padding-left: .6667em;
-    padding-top: 1.0833em;
-    width: 13.6667em;
+    padding-top: 2.6rem;
+    width: 20rem;
 }
 
 ._5vb_.hasLeftCol ._5r-_ div#rightCol {
     padding-right: 0.5833em;
-  	width: 23.3333em;
 }
 
 ._5vsi {
@@ -617,14 +673,19 @@ body:not(.SettingsPage) #globalContainer {
     padding-left: .3333em;
 }
 
-._5vsj._5vsj._5vsj {
-    margin: .6667em -1em -1em;
+._5vsj._5vsj._5vsj {6
+    /* margin: .6667em -1em -1em; */
+  margin:.6667em -1em -1em;
 }
 
 ._5vw4 .img {
     /* right-hand ads column - ad image */
     border-radius: .4em;
 }
+
+._6a._6b {
+  height:auto !important;
+    }
 
 ._6l- {
     /* container for news feed image */
@@ -640,7 +701,7 @@ body:not(.SettingsPage) #globalContainer {
 
 ._6m3 {
     /* news feed item attachment - text container */
-    font-size: 1em;
+    font-size: .75em;
     height: 11em;
 	margin: .8333em 1em;
 }
@@ -649,13 +710,16 @@ body:not(.SettingsPage) #globalContainer {
     height: auto !important;
     margin-left: auto;
     margin-right: auto;
-    width: 100% !important;
+    width: auto !important;
+  	max-width:100% !important;
+  
 }
 
 ._6m6, ._6m6._6m6._6m6._6m6 {
     /* news feed item attachment - title */
-    font-size: 1.5em;
-    line-height: 1.222em;
+    font-size: 1.4rem;
+	font-weight: 400 !important;
+    line-height: 1.125em;
     margin-bottom: .3571em;
     max-height: 6.1111em;
 }
@@ -666,10 +730,10 @@ body:not(.SettingsPage) #globalContainer {
     line-height: 1.3333em;
     max-height: 6.6667em;
     opacity: .64;
+  	font-size:.875em;
 }
 
 ._6ma ._6mb {
-    font-size: .8em;
     line-height: 1em;
 }
 
@@ -707,11 +771,15 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
     /* Topic container */
     align-self: stretch;
     margin: 0 auto;
-    width: 38em;
+    width: auto;
+  max-width:76rem;
+  display:flex;
+  flex-direction:column;
 }
 
 .hasLeftCol ._5r-_.homeWiderContent div#rightCol {
-    align-self: stretch;
+  box-sizing:border-box;
+        
 }
 
 .homeFixedLayout div#contentArea {
@@ -761,6 +829,11 @@ body:not(.SettingsPage) .hasLeftCol #headerArea {
     margin-top: .1429em;
 }
 
+.UFILikeSentence,
+.UFIShareRow {
+  font-size:.75rem;
+}
+  
 @media only screen and (min-width: 1340px) {
   body.timelineLayout #contentArea {    
     width: auto;    
@@ -782,13 +855,15 @@ div._5t_y {
     margin: 0;
 }
 
+html body {
+  font-size:1em;
+}
 html body.home #contentArea {
     order: -1;
 }
 
 html body.home #contentCol {
 	display: flex;
-    flex-wrap: wrap;
 }
 
 html body.home #contentCol > div:first-of-type:last-of-type {
@@ -812,11 +887,9 @@ html body.home #contentCol #headerArea:after {
 
 html body.timelineLayout #contentCol {
     margin: 0 auto;
-    max-width: 1000px;
 }
 
 html ._5vb_.hasLeftCol #contentCol {
-    margin-left: 14.3333em;
     min-height: 50em;
     padding-left: .9167em;
     padding-top: 1em;
@@ -829,8 +902,28 @@ html ._5vb_._5vb_.hasLeftCol div#contentArea {
 html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     /* News Feed container */
     float: none;
-    margin: 0 auto;
-    width: 41.3333em;
+    margin: 0;
+    width: auto;
+  min-width:50%;
+  box-sizing:border-box;
+  	display:flex;
+}
+
+html ._5pcb > div div {
+  display:inline-flex;
+  flex-wrap: wrap;
+  
+}
+html ._5pcb > div div._4-u2 {
+  max-width:33%;
+  min-width:25%;
+  box-sizing:border-box;
+  background:transparent;
+  display:inline-block;
+  width:auto !important;
+}
+html ._5pcb > div div._4-u2 div {
+  display:block;
 }
 
 @media only screen and (max-width: 1034px) {
@@ -840,24 +933,15 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 }
 
 ._5p3y[dir="ltr"], ._5p3y[dir="ltr"] button, ._5p3y[dir="ltr"] input, ._5p3y[dir="ltr"] label, ._5p3y[dir="ltr"] select, ._5p3y[dir="ltr"] td, ._5p3y[dir="ltr"] textarea, ._5p3y[dir="ltr"] .uiMentionsInput .highlighter, ._5p3y[dir="ltr"] .uiButtonText, ._5p3y[dir="ltr"] .uiButton input, ._5p3y[dir="ltr"] .uiLinkButton input, ._5p3y[dir="ltr"] button.as_link, ._5p3y[dir="ltr"] .fbChatSidebar, ._5p3y[dir="ltr"] .fbDock, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .uiStreamMessage, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .text_exposed_link, ._5p3y[dir="ltr"] .uiTooltipX .tooltipContent, ._5p3y[dir="ltr"] a[role="button"], ._5p3y[dir="rtl"] *[dir="ltr"] {
-	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-family: 'Open Sans', 'Liberation Sans', 'Open Sans', Helvetica, sans-serif; /* native Linux font is superior. */
+}
+  ._5p3y textarea.mentionsTextarea
+{
+  font-family:'Liberation Sans','Open Sans',Helvetica,sans-serif;
 }
 
 ._5pbw, ._5pbx {
-	line-height: 1.5em !important;
-}
-
-.fwb {
-	font-weight: 600 !important;
-}
-  
-._6m6, ._6m6._6m6._6m6._6m6 {
-	font-weight: 400 !important;
-	font-size: 1.4em !important;
-}
-  
-._5p3y ._5pbx {
-	margin-bottom: .6em;
+	line-height: 1.44em !important;
 }
 
 ._5p3y .fsm, ._5p3y .uiHeader h3, ._5p3y h4, ._5p3y h5, ._5p3y h6, ._5p3y .UFICommentContent ._5v47 {
@@ -882,6 +966,9 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 	width: 35.8667em !important;
 }
 
+._5p3y ._5pbw {
+  font-size:1em;
+    }
 ._5bfg #jewelContainer .fbJewelFlyout, ._5bfg #accountSettingsFlyout {
 	width: 35.8667em;
 }
@@ -934,10 +1021,194 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 /* END notifications flyout */              
 
 ._5v3q ._1qbu {
-	font-size: 1.125em !important;
-	letter-spacing: -1px;
+	font-size: 1rem !important;
+  font-family:'Open Sans';
+  margin:0 0 0 -.6rem;
+  padding: 1.6rem 1em 0;
 }
 
+._5v3q ._5mxv {
+  margin-top:0;
+  padding:1.6rem 0 0 0;
+    }
+
+
+
 ._5861 ._586j, ._5861 ._586k, ._5861 ._586f, ._5861 ._586i {
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Liberation Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.uiScaledImageContainer {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+.fbxWelcomeBoxName {
+    width:auto;
+  }
+
+body._5vb_ #globalContainer {
+  width:auto;
+  margin:0 auto;
+}
+
+span.UFICommentBody {
+  font-family:'Liberated Serif', serif;
+}
+
+#stream_pagelet {
+  display:inline;
+}
+#stream_pagelet > div:last-child {
+  display:inline;
+}
+._4-u2 {
+      display:inline-block;
+    }
+.uiScaledImageContainer img {
+  min-height:inherit;
+  }
+
+._6b._6a:nth-of-type(2) {
+      vertical-align:bottom;
+      min-height:3.5rem;
+    }
+
+._46-i.img {
+      max-width:100%;
+      height:auto;
+    }
+    ._46-h {
+        max-width:100% !important;
+      }
+      
+      ._5rzs._5v6d ._5v6e
+{
+  width:auto;
+  max-width:100%;
+}
+
+.uiScaledImageContainer .scaledImageFitWidth
+{
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+
+._5v3q ._4-eo
+{
+  width:100% !important;
+  max-width:100%;
+}
+
+div#rightCol div.rightColumnWrapper {
+  position:relative;
+  top:inherit;
+  left:inherit;
+  right:inherit;
+  bottom:inherit;
+  float:right;
+}
+
+label
+{
+  font-size: 1em;
+}
+
+div#pagelet_composer > ._4-u2 {
+  width:100%;
+  box-sizing:border-box;
+}
+
+._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent
+{
+  font-size:1em;
+}
+
+
+/**********
+
+	NEW CODE
+
+*************************/
+
+
+a._5pcq {
+  display:inline-block;
+}
+
+._uhk
+{
+    max-height:3.75em;
+  }
+  
+div#pagelet_rhc_footer.pagelet
+  {
+    font-size:.64rem;
+  }
+
+div._4ikz, div._4ikz > div {
+    display:inline-flex;
+}
+  }
+  #page_bookmarklet_nav
+  {
+  }
+  
+  div._5plv .navHeader, div._5plv .navHeader a
+  {
+    font-size:1em;
+  }
+
+ul.uiList
+{
+  width:100%;
+}
+
+._5bfg #pageNav .navLink, ._5bfg #pageNav .navItem .navLink
+{
+  font-size:inherit;
+}
+#pageNav._5bfj .tinyman .headerTinymanPhoto
+{
+  width:1.5rem !important;
+  height:auto !important;
+}
+._5681, ._5681 *
+{
+  font-size:1rem !important;
+  font-family:'Liberation Sans','Open Sans',Helvetica,sans-serif !important;
+}
+html ._5pcb > div div._4-u2._la
+{
+  width:100% !important;
+  max-width:100% !important;
+  min-width:100% !important;
+}
+._18s4 ._4_cj
+{
+  font-size:1em;
+  font-weight:300;
+}
+
+div._46-h._4-ep {
+  /* news feed photo post - image container */
+  height:auto !important;
+}
+
+._46-i {
+    position:relative;
+    top:inherit;
+    left:inherit;
+  }
+html ._5pcb
+{
+  display:inline-flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  }
+div._4ikz {
+  flex-wrap2:wrap;
+  flex-direction2:column;
+  display:inline !important;
 }
