@@ -2,7 +2,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.1.0.5 (2014-06-21)
+ver 1.1.0.6 (2014-06-21)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -10,7 +10,7 @@ stylebot.me/users/siliconic
 github.com/siliconic
 */
 
-@font-face {
+font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
@@ -1256,4 +1256,214 @@ html ._5pcb > div div._4-u2 {
 img._6m5.fbStoryAttachmentImage.img {
     margin: 0;
     width: 100% !important;
+}
+
+/*
+
+21 Jun 1310mt added:
+
+*/
+
+div._5pcp span.fsm.fwn.fcg {
+    font-size: .75em;
+    opacity: .75;
+}
+#stream_pagelet div._4ikz {
+    display: inline;
+}
+html ._5pcb > div div._4-u2 {
+    width: 33% !important;
+}
+#stream_pagelet div._4ikz > div {
+    display: initial;
+}
+body.hasLeftCol.home.composerExpanded._5vb_.fbx.hasSmurfbar.hasPrivacyLite._5p3y.webkit.chrome.Locale_en_US {
+    overflow-wrap: normal;
+}
+._5p3y ._uhk ._5v9v {
+    line-height: 1.4em;
+}
+div.uiHeader.uiHeaderTopBorder.pbs._2w2d {
+    font-size: 1rem;
+}
+h6.uiHeaderTitle {
+    font-size: 1rem;
+}
+a._2w2e {
+    font-size: 1rem;
+    line-height: 1em;
+}
+a._5cl5._7ge._5v0t._5v0s {
+    line-height: 1em;
+    font-size: .9rem;
+}
+li._5my2 {
+    padding: .25em .3333em;
+}
+div#rightCol {
+    font-size: .5rem;
+}
+
+/*
+
+21 Jun 1326mt added:
+
+*/
+
+div.rhcFooterWrap {
+    padding: 0 1em 0 1em;
+    margin: 0 0 0 auto;
+    opacity: .4;
+    font-weight: 300;
+    text-align: right;
+}
+div.rhcFooterWrap:hover {
+    opacity: .66;
+}
+div#rightCol {
+    font-size: .75rem;
+}
+._5p3y div#rightCol {
+    font-size: .5rem;
+    margin-left: auto;
+}
+._5vb_.hasLeftCol ._5r-_ div#rightCol {
+    padding-left: 1rem;
+    max-width: 20rem;
+}
+
+/* 21 Jun 1702mt added:
+*/
+
+div._5pbx.userContent {}
+._5p3y ._5pbw {
+    line-height: 1.6em !important;
+    display: inline;
+}
+body.hasLeftCol.home.composerExpanded._5vb_.fbx.hasSmurfbar.hasPrivacyLite._5p3y.webkit.chrome.Locale_en_US {
+    overflow: auto;
+}
+span.fcg span.fwb:not(:first-child) {
+    font-weight: 300;
+    /* display: block; */
+}
+span.fcg span.fwb:first-child {
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 1px .1em .2em rgba(0,0,0,.2);
+    display: block;
+    margin-bottom: 1rem;
+}
+span.fcg {
+    margin-left: 1rem;
+}
+div#contentCol {
+    margin-left: auto;
+}
+div#rightCol {
+    font-size: .875rem !important;
+}
+ul.uiList._1dso.rfloat._ohf._509-._4ki._6-h._6-j._6-i {
+    width: auto;
+    float: left;
+    margin-left: 3.6rem;
+}
+html ._5pcb > div div._4-u2 {
+    width: auto !important;
+    max-width: 50%;
+  	vertical-align:top;
+}
+div._2a2q.mtm {
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    display: flex !important;
+    width: auto !important;
+    align-content: stretch;
+    text-align: center;
+    height: auto !important;
+}
+a._5dec._2a2r {
+    position: relative;
+    top: inherit !important;
+    left: inherit !important;
+}
+div._5pcp {
+    display: inline-block !important;
+}
+a._5pcq {
+    display: inherit;
+}
+
+/*
+
+21 Jun 2111mt added:
+
+*/
+
+body, button, input, label, select, td, textarea {
+    font-size: inherit;
+    min-width: 10em;
+    min-height: 1.6em;
+}
+input#email {
+    width: 9rem;
+}
+body, button, input, label, select, td, textarea {
+    font-family: 'Liberation Sans','Open Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+}
+textarea, .inputtext, .inputpassword {
+    padding:.6rem;
+}
+.uiButtonText, .uiButton input {
+    font-size: 1rem;
+}
+div.clearfix.loggedout_menubar {
+    width: 100%;
+    min-width: 860px;
+    height: 20%;
+}
+div.loggedout_menubar_container {
+    height: auto;
+    min-width: 980px;
+    width: 60em;
+    margin: auto;
+    padding: 1rem;
+}
+td.login_form_label_field {
+    padding-top: 1rem;
+}
+
+/*
+
+21 Jun 2135mt added:
+
+*/
+
+input.uiInputLabelInput.uiInputLabelRadio {
+    min-width: initial;
+    margin: 0 1rem;
+    position: relative;
+    min-height: 1em;
+}
+._4jy4, ._4jy4._42fr:active, ._4jy4._42fr._42fs {
+    font-size: 1rem;
+    padding: 1em;
+}
+div#checkpointBottomBar {
+    padding: 1rem;
+}
+div.mts.mbm {
+    font-size: .75rem;
+    opacity: .75;
+}
+.uiInputLabel label.uiInputLabelLabel {
+    vertical-align: super;
+}
+div.uiInputLabel.clearfix.uiInputLabelLegacy {
+    margin: .6rem;
+}
+input, textarea, keygen, select, button, isindex {
+    line-height: inherit;
 }
