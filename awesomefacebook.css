@@ -1,8 +1,9 @@
 /*
+
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.1.0.6 (2014-06-21)
+ver 1.1.0.7 (2014-06-25)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -1466,4 +1467,115 @@ div.uiInputLabel.clearfix.uiInputLabelLegacy {
 }
 input, textarea, keygen, select, button, isindex {
     line-height: inherit;
+}
+
+/*
+
+21 Jun 2228mt added:
+
+*/
+
+textarea.uiTextareaAutogrow.input autofocus.mentionsTextarea.textInput.DOMControl_placeholder {
+    font-size: 2rem;
+}
+._4-u2 > form._2_4._fu {
+    font-size: .75rem;
+}
+form._2_4._fu {
+    font-size: .75rem;
+}
+div._55d0 {
+    font-size: 1.6rem;
+}
+textarea.uiTextareaAutogrow.input.autofocus.mentionsTextarea.textInput.DOMControl_placeholder {
+    padding: .6rem;
+    min-height: 2em;
+    font-size: 1.45rem;
+}
+._2yg .composerTypeahead .wrap {
+    padding: .5em;
+}
+._5t_y ._1dsq ._1dsr, ._5t_y ._1dsq ._1dst {
+    width: 3em;
+    height: 3em;
+    padding: 1em;
+}
+._5t_y ._1dsq {
+    height: 3rem;
+    width: 3rem;
+    padding: 0;
+}
+div._1dsp._4- {
+    font-size: 1rem;
+    padding: .5rem 1rem 0;
+}
+ul.uiList._1dso.rfloat._ohf._509-._4ki._6-h._6-j._6-i {
+    margin: 0;
+    font-size: 2rem;
+}
+._4jy3, ._4jy3._42fr:active, ._4jy3._42fr._42fs {
+    font-size: 1rem;
+}
+._4ki._6-j>li {
+}
+button._42ft._4jy0._11b._4jy3._4jy1.selected {
+    font-size: 1.6rem;
+}
+a._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h {
+    min-height: 1.6rem;
+}
+
+/*
+
+24 jun 1902mt added:
+
+*/
+
+textarea.uiTextareaAutogrow.input.autofocus.mentionsTextarea.textInput.DOMControl_placeholder {
+    font-size: 1.25rem;
+    padding: .5rem .25rem 0;
+}
+button._42ft._4jy0._11b._4jy3._4jy1.selected {
+    font-size: 1.25rem;
+}
+ul.uiList._1dso.rfloat._ohf._509-._4ki._6-h._6-j._6-i {
+    font-size: inherit;
+    vertical-align: bottom;
+    height: auto;
+}
+a._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h {
+    max-width: none !important;
+    min-height: 0 !important;
+}
+._4jy3, ._4jy3._42fr:active, ._4jy3._42fr._42fs {
+    font-size: 1.125rem !important;
+}
+li {}
+ul.uiList._1dso.rfloat._ohf._509-._4ki._6-h._6-j._6-i li {
+    vertical-align: bottom;
+    height: auto;
+}
+div._1dsp._4- {
+    padding: 0rem 1rem;
+}
+
+/*
+
+24 jun 1912mt added:
+
+*/
+
+div._46-h._4-ep {
+    width: 100% !important;
+    margin: 0;
+}
+img._46-i.img {
+    width: 100%;
+}
+div#leftCol {
+    min-width: 17%;
+    max-width: 14rem;
+    margin: 0;
+    box-sizing: border-box;
+    padding: .6rem;
 }
