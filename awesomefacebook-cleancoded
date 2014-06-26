@@ -1,0 +1,1285 @@
+/*
+
+Awesome Facebook
+by siliconic
+for facebook.com
+ver 1.1.1-cleancoded (2014-06-26)
+
+find more styles + updates + give me some feedback @
+userstyles.org/users/258518
+stylebot.me/users/siliconic
+github.com/siliconic
+
+CSSTidy 1.3: Thu, 26 Jun 2014 16:47:34 -0500 */
+#fbNotificationFlyout,._5pcp._5vsi {
+font-size:.8rem
+}
+
+#fbNotificationsFlyout li .fwb {
+font-size:.92em
+}
+
+#login_form #loginbutton {
+line-height:2em;
+min-height:1em
+}
+
+#login_form tr:nth-child(2):not(:last-child) > td:nth-child(3):last-child {
+min-height:initial;
+min-width:initial;
+padding-left:1rem
+}
+
+#pageLogo a.logo {
+margin:1rem 1rem .6rem 2.6em
+}
+
+#pageNav._5bfj .tinyman .headerTinymanPhoto {
+height:auto!important;
+width:1.5rem!important
+}
+
+#pagelet_composer ._4-u2 {
+padding:inherit
+}
+
+#rightCol ._5v6e .pagelet .uiHeader {
+padding-top:1em
+}
+
+#rightCol .uiHeaderSection,#rightCol .uiSideHeader,#rightCol ._2w2d {
+border-color:#d5d7db
+}
+
+#stream_pagelet > div:last-child,#stream_pagelet div._4ikz {
+display:inline
+}
+
+#stream_pagelet div._4ikz > div {
+display:initial;
+flex-wrap:wrap
+}
+
+#userNavigation,.UFILikeSentence,.UFIShareRow,._4-u2 > form._2_4._fu,form._2_4._fu {
+font-size:.75rem
+}
+
+.UFIComment .UFICommentActorName {
+cursor:default;
+display:block;
+font-size:.625rem;
+font-weight:400;
+margin-bottom:.1667em;
+opacity:.8
+}
+
+.UFIComment .UFICommentBody {
+opacity:.8125
+}
+
+.UFIComment:hover .UFICommentActorName {
+opacity:1
+}
+
+.UFICommentActorName:hover {
+text-decoration:none
+}
+
+.UFIRow {
+padding:.3333em
+}
+
+.UFIRow .UFICommentActions,._33f {
+padding-top:.25em
+}
+
+.UFIRow .UFIImageBlockContent {
+padding:0 0 0 .6667em
+}
+
+.UFIRow .fsm.UFICommentActions {
+font-size:.625em
+}
+
+._18s4 ._4_cj {
+font-size:1em;
+font-weight:300
+}
+
+._29k {
+display:flex;
+flex-direction:row-reverse;
+height:auto;
+margin-bottom:0;
+max-width:100%;
+min-height:4em;
+padding-bottom:.4em;
+vertical-align:bottom;
+width:auto
+}
+
+._29k ._6a._6b:nth-of-type(2) {
+box-sizing:border-box;
+height:auto;
+min-height:3.333em
+}
+
+._2jq5 {
+height:1.8333em;
+width:1.75em
+}
+
+._2yg .composerTypeahead .wrap {
+padding:.5em
+}
+
+._303 {
+margin-left:0
+}
+
+._33e {
+padding:.5833em 2.25em .5833em .6667em
+}
+
+._33i {
+margin:1.3333em auto
+}
+
+._3479 #sideNav #pinnedNav {
+margin-top:1em
+}
+
+._3479 ._2jq5 {
+height:2em
+}
+
+._3479 .uiSideNav .item {
+height:2em;
+line-height:2em
+}
+
+._4-k1 {
+vertical-align:baseline
+}
+
+._4-u2 {
+border-radius:.4em;
+display:inline-block;
+padding:.9em
+}
+
+._4-u2._5v6e {
+background:inherit;
+border:none;
+color:inherit;
+opacity:.9
+}
+
+._46-h {
+max-width:100%!important
+}
+
+._46-i {
+left:inherit;
+position:relative;
+top:inherit
+}
+
+._46-i.img {
+height:auto;
+max-width:100%
+}
+
+._4jy3,._4jy3._42fr:active,._4jy3._42fr._42fs {
+font-size:1.125rem!important
+}
+
+._4jy4,._4jy4._42fr:active,._4jy4._42fr._42fs {
+font-size:1rem;
+padding:1em
+}
+
+._4r_y {
+margin-top:-1em
+}
+
+._53iq ._5xia,._5cwb._6m4 ._59tj {
+margin-top:0
+}
+
+._53ir {
+margin:.6667em 0 .25em
+}
+
+._54bx {
+width:40em
+}
+
+._54bx ._54b- {
+display:flex;
+float:none;
+width:auto
+}
+
+._54bx ._54b- .ego_unit {
+align-self:stretch;
+width:25%
+}
+
+._54ru {
+border-radius:1.3333em;
+height:2.6667em;
+width:2.6667em
+}
+
+._5681,._5681 * {
+font-family:'Liberation Sans','Open Sans',Helvetica,sans-serif!important;
+font-size:1rem!important
+}
+
+._585- {
+background:inherit;
+box-shadow:none;
+font-size:1.6rem
+}
+
+._585_ {
+visibility:hidden
+}
+
+._5861 .DOMControl_placeholder,._5861 ._586j,._5861 ._586h {
+color:#ccd5e8
+}
+
+._5861 ._586f,._5861 ._586i {
+color:#fff
+}
+
+._5861 ._586j {
+opacity:.6
+}
+
+._5861 ._586j,._5861 ._586k,._5861 ._586f,._5861 ._586i {
+font-family:'Liberation Sans', 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+._59ap ._59tj {
+padding-top:.75em
+}
+
+._59ap ._6m3 {
+margin:.9231em 1em;
+max-height:none
+}
+
+._5bfg #jewelContainer .fbJewelFlyout,._5bfg #accountSettingsFlyout {
+width:35.8667em
+}
+
+._5cwb ._59tj {
+padding-top:.75em;
+position:relative
+}
+
+._5h55 ._1ui7 {
+opacity:.64
+}
+
+._5my7 {
+margin-top:-.3333em;
+padding-bottom:.3333em
+}
+
+._5p3y #fbNotificationsFlyout ._50-t .uiScrollableAreaBody {
+width:35.8667em!important
+}
+
+._5p3y #fbNotificationsFlyout ._50-t > div {
+height:40.6667em!important;
+width:35.8667em!important
+}
+
+._5p3y #rightCol button,._5p3y #rightCol ._4jy0 {
+background:inherit
+}
+
+._5p3y #rightCol,html body,._5p3y .fsm,._5p3y .uiHeader h3,._5p3y h4,._5p3y h5,._5p3y h6,._5p3y .UFICommentContent ._5v47,label,._5t_y ._2yg .input,._5t_y ._2yg .uiMentionsInput .highlighterContent,div._5plv .navHeader,div._5plv .navHeader a,label.uiButton {
+font-size:1em
+}
+
+._5p3y ._5pbw {
+display:inline;
+font-size:1em;
+line-height:1.6em!important
+}
+
+._5p3y ._5pbx {
+font-family:'Liberation Sans', Helvetica, 'Open Sans', sans-serif;
+font-size:1.25rem;
+line-height:1.5em!important;
+margin:.5em auto 0
+}
+
+._5p3y ._5pbx p + p {
+margin-top:1em!important
+}
+
+._5p3y ._5pbx>p:last-of-type,html ._5pcb > div div._4-u2 div {
+display:block
+}
+
+._5p3y ._5vwg {
+font-size:1em;
+line-height:1.3333em
+}
+
+._5p3y ._5vwj ._5vwk {
+font-size:1em;
+line-height:1rem
+}
+
+._5p3y ._uhk {
+line-height:1.25em
+}
+
+._5p3y ._uhk ._5v9v {
+line-height:1.4em
+}
+
+._5p3y .commentable_item .comment_link {
+vertical-align:bottom
+}
+
+._5p3y div#rightCol {
+font-size:.5rem;
+margin-left:auto
+}
+
+._5p3y label,._5p3y input {
+font-size:inherit!important
+}
+
+._5p3y textarea.mentionsTextarea {
+font-family:'Liberation Sans','Open Sans',Helvetica,sans-serif
+}
+
+._5p3y,._5bfg #pageNav .navLink,._5bfg #pageNav .navItem .navLink {
+font-size:inherit
+}
+
+._5p3y[dir=ltr],._5p3y[dir=ltr] button,._5p3y[dir=ltr] input,._5p3y[dir=ltr] label,._5p3y[dir=ltr] select,._5p3y[dir=ltr] td,._5p3y[dir=ltr] textarea,._5p3y[dir=ltr] .uiMentionsInput .highlighter,._5p3y[dir=ltr] .uiButtonText,._5p3y[dir=ltr] .uiButton input,._5p3y[dir=ltr] .uiLinkButton input,._5p3y[dir=ltr] button.as_link,._5p3y[dir=ltr] .fbChatSidebar,._5p3y[dir=ltr] .fbDock,._5p3y[dir=ltr] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage,._5p3y[dir=ltr] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5,._5p3y[dir=ltr] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6,._5p3y[dir=ltr] .tickerDialogContent .uiStream .uiStreamMessage,._5p3y[dir=ltr] .tickerDialogContent .uiStream .text_exposed_link,._5p3y[dir=ltr] .uiTooltipX .tooltipContent,._5p3y[dir=ltr] a[role=button],._5p3y[dir=rtl] [dir=ltr] {
+font-family:'Open Sans', 'Liberation Sans', 'Open Sans', Helvetica, sans-serif
+}
+
+._5pat ._5sq7 {
+height:3.333em;
+width:3.333em
+}
+
+._5pbw {
+margin-bottom:.1429em;
+padding-right:1.5714em
+}
+
+._5pbw,._5pbx {
+line-height:1.44em!important
+}
+
+._5pcp {
+font-size:.875em
+}
+
+._5plv .uiNarrowSideNav .uiSideNav .sideNavItem,._5plv .uiSideNav .sideNavItem {
+margin-left:-.3333em
+}
+
+._5plv .uiSideNav .item {
+border-radius:.1667em;
+padding-left:2.3333em;
+padding-right:.3333em
+}
+
+._5plv .uiSideNav .sideNavItem .imgWrap img,._10cu {
+height:1.3333em;
+width:1.3333em
+}
+
+._5plv .uiSideNav .sideNavItem .linkWrap {
+max-width:12em;
+padding-right:.4167em
+}
+
+._5plv .uiSideNav .sideNavItem .uiSideNavEditButton {
+margin-top:.25em
+}
+
+._5qrt ._5vwe {
+padding-top:.5em
+}
+
+._5qrt .ego_section .ego_unit:first-child,._5qrt.egoOrganicColumn .ego_section .ego_unit:first-child {
+padding-top:.8333em
+}
+
+._5qrt .ego_unit_container {
+line-height:1.3333em
+}
+
+._5r-_ #rightCol .ego_column .ego_section .uiSideHeader {
+padding-bottom:0
+}
+
+._5r-_ ._5my2 {
+margin-left:-.3333em;
+padding:.25em .3333em
+}
+
+._5r-_ ._5my2._5my9 {
+background:rgba(0,0,0,.125)
+}
+
+._5r-_ .fbReminders .fbRemindersStory {
+margin:0 -.3333em;
+padding:.3333em
+}
+
+._5r-_.homeWiderContent div#rightCol ._5v6d #pagelet_reminders .fbReminders {
+margin:-.3333em 0
+}
+
+._5r-z,._5vsi .UFIBlingBoxReshareIcon,._8r {
+margin-right:.4167em
+}
+
+._5rzs .uiHeader,#rightCol ._5rzs .uiHeader.uiSideHeader {
+padding-bottom:.8333em
+}
+
+._5rzs .uiHeaderTop .uiHeaderTitle,._5rzs .uiHeader.uiSideHeader,._5rzs .uiHeader.uiSideHeader a,._5rzs .uiHeader.uiSideHeader h6,#rightCol ._5rzs .uiHeader.uiSideHeader .adsCategoryTitleLink,._2w2e {
+font-size:.75rem;
+line-height:1em
+}
+
+._5rzs._5v6d ._5v6e {
+max-width:100%;
+padding:1em;
+width:auto
+}
+
+._5sq7,._5v9u:after,._rw {
+border-radius:1.6em
+}
+
+._5t_y ._1dsq {
+height:3rem;
+padding:0;
+width:3rem
+}
+
+._5t_y ._1dsq ._1dsr,._5t_y ._1dsq ._1dst {
+height:3em;
+padding:1em;
+width:3em
+}
+
+._5v3q {
+padding:1rem!important
+}
+
+._5v3q ._1qbu {
+font-family:'Open Sans';
+font-size:1rem!important;
+margin:0 0 0 -.6rem;
+padding:1.6rem 1em 0
+}
+
+._5v3q ._4-eo {
+margin:auto;
+max-width:100%;
+width:100%!important
+}
+
+._5v3q ._4-eo img,._5v3q .fbStoryAttachmentImage,._5vb_ ._dcs,._5vw4 .img,._33h {
+border-radius:.4em
+}
+
+._5v3q ._5mxv {
+margin-top:0;
+padding:1.6rem 0 0
+}
+
+._5v3q ._5pbx p {
+margin:.5em 0
+}
+
+._5v3q ._5x46 {
+margin-bottom:0
+}
+
+._5v6e #pagelet_reminders .egoOrganicColumn,._5vb_ ._5qrt .ego_section .ego_unit {
+padding:1em 0
+}
+
+._5v9k .UFIImageBlockImage:after {
+border-radius:1.3333em
+}
+
+._5vb_ #blueBarHolder #blueBar #pageHead {
+margin:0 auto;
+min-width:960px;
+padding:0 .5em;
+width:60%
+}
+
+._5vb_ #pagelet_pinned_nav .sideNavItem ._26tg,._5vb_ #pagelet_bookmark_nav .sideNavItem ._26tg {
+height:1em;
+margin-top:.25em;
+width:1em
+}
+
+._5vb_ ._dcs .__c_,._5vb_ ._6l-,.displayedTickerToggleWrapper .tickerLineToggle {
+background:inherit
+}
+
+._5vb_ .home_right_column .fbRemindersThickline {
+margin:0 -1em
+}
+
+._5vb_.hasLeftCol #leftCol {
+opacity:.87;
+padding-left:.6667em;
+padding-top:0;
+width:20rem
+}
+
+._5vb_.hasLeftCol ._5r-_ div#rightCol {
+box-sizing:border-box;
+max-width:20rem;
+padding-left:1rem;
+padding-right:.5833em;
+width:auto
+}
+
+._5vb_.hasLeftCol div#leftCol,td.login_form_label_field {
+padding-top:1rem
+}
+
+._5vsi {
+font-size:.8em;
+margin-left:.6em;
+margin-top:.8333em;
+opacity:.8
+}
+
+._5vsi .UFIBlingBox {
+margin-bottom:-.1667em;
+margin-right:-.3333em;
+margin-top:-.4166em;
+padding:.4166em .3333em .1667em
+}
+
+._5vsi .UFIBlingBoxCommentIcon {
+margin-right:.3333em;
+width:1em
+}
+
+._5vsi .UFIBlingBoxLikeIcon {
+margin-right:.25em;
+width:1.0833em
+}
+
+._5vsi .UFIBlingBoxSprite {
+height:1.25em
+}
+
+._5vsj .UFIAddComment {
+padding-top:.1667em
+}
+
+._5vsj .UFIAddComment+.UFIComment.UFIFirstCommentComponent,._5vsj .UFILastComment+.UFIAddComment {
+padding-top:.3333em
+}
+
+._5vsj .UFIAddComment.UFIFirstComponent,._5vsj .UFIComment.UFIFirstCommentComponent {
+padding-top:.6667em
+}
+
+._5vsj .UFILikeSentence .UFIImageBlockContent {
+padding-left:.4167em
+}
+
+._5vsj .UFIPagerRow .UFIImageBlockContent {
+padding-left:.5em
+}
+
+._5vsj .UFIPagerRow+.UFIComment,._5vsj .UFIPagerRow+.UFIAddComment {
+padding-top:0
+}
+
+._5vsj .UFIRow {
+margin:0 1em;
+padding:.3333em 0
+}
+
+._5vsj .UFIRow.UFIFirstComponent {
+margin:0;
+padding-left:1em;
+padding-right:1em
+}
+
+._5vsj .UFIRow.UFILastComponent {
+padding-bottom:.6667em
+}
+
+._5vsj .UFIRow.UFIPagerRow,._5vsj .UFIRow.UFILikeSentence,._5vsj .UFIRow.UFIShareRow {
+padding-bottom:.5833em;
+padding-top:.75em
+}
+
+._5vsj .UFIShareRow .UFIImageBlockContent {
+padding-left:.3333em
+}
+
+._5vsj._5vsj._5vsj {
+margin:.6667em -1em -1em
+}
+
+._6a._6b {
+height:auto!important
+}
+
+._6b._6a:nth-of-type(2) {
+min-height:3.5rem;
+vertical-align:bottom
+}
+
+._6l-,._6l-:after,.listMemberFacepile {
+border-radius:.4em;
+overflow:hidden
+}
+
+._6m3 {
+font-size:.75em;
+height:auto;
+margin:0 1em;
+padding:.8333em 0
+}
+
+._6m5 {
+height:auto!important;
+margin-left:auto;
+margin-right:auto;
+max-width:100%!important;
+width:auto!important
+}
+
+._6m6,._6m6._6m6._6m6._6m6 {
+font-size:1.4rem;
+font-weight:400!important;
+line-height:1.125em;
+margin-bottom:.3571em;
+max-height:6.1111em
+}
+
+._6m7,._6m7._6m7._6m7._6m7 {
+font-size:.875em;
+line-height:1.3333em;
+max-height:6.6667em;
+opacity:.64
+}
+
+._6ma ._6mb {
+line-height:1em
+}
+
+._8s {
+margin-right:.6667em
+}
+
+._la,body.UIPage_LoggedOut ._4-u2 {
+padding:0
+}
+
+._uhk {
+max-height:3.75em
+}
+
+.fbJewelFlyout .jewelFooter a {
+padding:.6667em
+}
+
+.fbStreamPrivacy .lock {
+margin-bottom:0;
+vertical-align:baseline
+}
+
+.fbxWelcomeBoxBlock .fbxWelcomeBoxImg,.litestandClassicWelcomeBox .fbxWelcomeBoxBlock:after {
+border-radius:.25em
+}
+
+.fbxWelcomeBoxName,ul.uiList._a4h.rfloat._ohf._509-._4ki._6-h._6-j._4ks {
+width:auto
+}
+
+.fsm {
+font-size:1em;
+line-height:1.6em;
+margin-bottom:1.6em;
+margin-top:0
+}
+
+.hasLeftCol ._5r-_.homeWiderContent div#contentArea {
+align-self:stretch;
+display:flex;
+flex-direction:column;
+margin:0 auto;
+max-width:76rem;
+width:auto
+}
+
+.hasLeftCol ._5r-_.homeWiderContent div#rightCol {
+box-sizing:border-box
+}
+
+.homeFixedLayout div#contentArea {
+padding-bottom:1.6667em
+}
+
+.mbm {
+margin-bottom:.8333em
+}
+
+.mbs {
+margin-bottom:.3571em
+}
+
+.mls {
+margin-left:.4167em
+}
+
+.mtm {
+margin-top:.8333em
+}
+
+.mts {
+margin-top:.4167em
+}
+
+.notifNegativeBase .fbJewelFlyout .jewelFooter a {
+border-bottom-left-radius:.25em;
+border-bottom-right-radius:.25em
+}
+
+.notifNegativeBase .fbJewelFlyout .jewelHeader,#tinymanNavWrapper .fbJewelFlyout .jewelHeader {
+border-top-left-radius:.25em;
+border-top-right-radius:.25em;
+padding:.6667em .6667em .5em
+}
+
+.notifNegativeBase .fbJewelFlyout,#tinymanNavWrapper .fbJewelFlyout {
+border-radius:.25em;
+box-shadow:0 .25em .6667em rgba(0,0,0,.25)
+}
+
+.pam {
+padding:1rem
+}
+
+.prs {
+padding-right:.4167em
+}
+
+.prs > ._6a._6b:first-child {
+height:3.3333em!important
+}
+
+.prs._6a > div._6a._6b:first-child {
+height:inherit!important
+}
+
+.sx_d52e6e {
+margin-top:.1429em
+}
+
+.uiInputLabel label.uiInputLabelLabel {
+vertical-align:super
+}
+
+.uiList li {
+line-height:1.6rem
+}
+
+.uiNarrowSideNav .uiSideNav .buttonWrap {
+margin-right:-.1667em
+}
+
+.uiOverlayFooterButtons button {
+margin:7px;
+padding:.6rem
+}
+
+.uiScaledImageContainer {
+height:auto!important;
+width:100%!important
+}
+
+.uiScaledImageContainer .scaledImageFitWidth {
+height:auto;
+max-width:100%;
+width:100%
+}
+
+.uiScaledImageContainer img {
+min-height:inherit
+}
+
+.uiScrollableArea.nofade .uiScrollableAreaWrap,.uiScrollableArea.fade .uiScrollableAreaWrap {
+margin-right:-2.5em;
+padding-right:2.5em
+}
+
+.uiSideNav .buttonWrap {
+height:1.6667em;
+width:1.6667em
+}
+
+.uiSideNav .item .imgWrap {
+width:1.5em
+}
+
+.uiSideNav .item,.uiSideNav .subitem {
+padding:.25em .6667em 0 2.3333em
+}
+
+.uiSideNav .sideNavItem .imgWrap {
+margin-left:-1.8333em
+}
+
+.uiSideNav .sideNavItem .uiSideNavEditButton {
+margin:.1667em .4167em 0 0
+}
+
+@font-face {
+font-family:'Open Sans';
+font-style:italic;
+font-weight:700;
+src:local('Open Sans Bold Italic'), local(OpenSans-BoldItalic), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxhbnBKKEOwRKgsHDreGcocg.woff) format(woff)
+}
+
+a._2w2e {
+font-size:1rem;
+line-height:1em
+}
+
+a._42ft._4jy0._55pi._5vto._55_p._2agf._p._4jy3._517h {
+max-width:none!important;
+min-height:0!important
+}
+
+a._5cl5._7ge._5v0t._5v0s {
+font-size:.9rem;
+line-height:1em
+}
+
+a._5dec._2a2r {
+left:inherit!important;
+position:relative;
+top:inherit!important
+}
+
+a._5pcq {
+display:inherit
+}
+
+a.fbxWelcomeBoxBlock img.fbxWelcomeBoxImg {
+height:auto;
+width:3rem!important
+}
+
+body,button,input,label,select,td,textarea {
+font-family:'Liberation Sans','Open Sans','lucida grande',tahoma,verdana,arial,sans-serif;
+font-size:inherit;
+min-height:1.6em;
+min-width:10em
+}
+
+body.SettingsPage #globalContainer {
+min-width:inherit;
+width:100%
+}
+
+body._5vb_ #globalContainer {
+margin:0 auto;
+width:auto
+}
+
+body.hasLeftCol.home.composerExpanded._5vb_.fbx.hasSmurfbar.hasPrivacyLite._5p3y.webkit.chrome.Locale_en_US {
+height:100%;
+overflow:auto;
+overflow-wrap:normal;
+width:100%
+}
+
+body:not(.SettingsPage) .hasLeftCol #headerArea {
+margin:0 auto;
+order:-1
+}
+
+button._42ft._4jy0._11b._4jy3._4jy1.selected,div._50f4._50f7 {
+font-size:1.25rem
+}
+
+div#checkpointBottomBar {
+margin:0;
+padding:0
+}
+
+div#contentCol {
+margin-left:auto;
+padding-top:1rem
+}
+
+div#leftCol {
+box-sizing:border-box;
+margin:0;
+max-width:14rem;
+min-width:17%;
+padding:.6rem
+}
+
+div#pageFooter {
+font-size:.75rem;
+margin:2.6rem!important;
+opacity:.75
+}
+
+div#pagelet_bookmark_nav li.sideNavItem {
+font-size:.75rem;
+font-weight:300;
+opacity:.75
+}
+
+div#pagelet_bookmark_nav li.sideNavItem:hover {
+font-weight:inherit;
+opacity:1
+}
+
+div#pagelet_composer > ._4-u2 {
+box-sizing:border-box;
+width:100%
+}
+
+div#pagelet_pinned_nav {
+margin-bottom:1rem;
+padding-bottom:.6rem;
+padding-top:.6rem
+}
+
+div#pagelet_rhc_footer.pagelet {
+font-size:.64rem
+}
+
+div#rightCol {
+font-size:.875rem!important
+}
+
+div#rightCol div.rightColumnWrapper {
+bottom:inherit;
+float:right;
+left:inherit;
+position:relative;
+right:inherit;
+top:inherit
+}
+
+div._1dsp._4- {
+font-size:1rem;
+padding:0 1rem
+}
+
+div._2a2q.mtm {
+align-content:stretch;
+box-sizing:border-box;
+display:flex!important;
+height:auto!important;
+margin-left:auto;
+margin-right:auto;
+max-width:100%;
+text-align:center;
+width:auto!important
+}
+
+div._2o49 {
+height:2em;
+line-height:1em;
+padding:.5rem 1rem
+}
+
+div._4-u3.pal {
+padding:1.6rem 1.6rem 1.6rem 1em
+}
+
+div._42ef {
+overflow:initial
+}
+
+div._46-h._4-ep {
+height:auto!important;
+margin:0;
+width:100%!important
+}
+
+div._4ikz,div._4ikz > div {
+display:inline-flex
+}
+
+div._55d0 {
+font-size:1.6rem
+}
+
+div._5pcp {
+display:inline-block!important
+}
+
+div._5pcp span.fsm.fwn.fcg {
+font-size:.75em;
+opacity:.75
+}
+
+div._5t_y,div.uiInputLabel.clearfix.uiInputLabelLegacy {
+margin:0
+}
+
+div._6-3._kj2 {
+margin-top:6rem
+}
+
+div.clearfix.loggedout_menubar {
+height:20%;
+min-width:860px;
+padding-top:1rem;
+width:100%
+}
+
+div.loggedout_menubar_container {
+height:auto;
+margin:auto;
+min-width:980px;
+padding:0 1rem;
+width:60em
+}
+
+div.mts.mbm {
+font-size:.75rem;
+opacity:.75
+}
+
+div.rhcFooterWrap {
+font-weight:300;
+margin:0 0 0 auto;
+opacity:.4;
+padding:0 1em;
+text-align:right
+}
+
+div.rhcFooterWrap:hover {
+opacity:.66
+}
+
+div.uiHeader.uiHeaderTopBorder.pbs._2w2d,h6.uiHeaderTitle,.uiButtonText,.uiButton input {
+font-size:1rem
+}
+
+div.uiInputLabel.clearfix.uiInputLabelLegacy.inlineBlock {
+font-size:1rem;
+line-height:1.6rem
+}
+
+font-face {
+font-family:'Open Sans';
+font-style:normal;
+font-weight:300;
+src:local('Open Sans Light'), local(OpenSans-Light), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format(woff)
+}
+
+html ._5pcb {
+display:inline-flex;
+flex-direction:column;
+flex-wrap:wrap
+}
+
+html ._5pcb > div div._4-u2 {
+box-sizing:border-box;
+max-width:50%;
+min-width:initial!important;
+vertical-align:top;
+width:auto!important
+}
+
+html ._5pcb > div div._4-u2._la {
+max-width:100%!important;
+min-width:100%!important;
+width:100%!important
+}
+
+html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
+box-sizing:border-box;
+display:flex;
+float:none;
+margin:0;
+min-width:50%;
+width:auto
+}
+
+html ._5vb_._5vb_.hasLeftCol div#contentArea {
+padding-right:.8333em
+}
+
+html ._5vb_.hasLeftCol #contentCol {
+min-height:50em;
+padding-left:.9167em;
+padding-top:1em
+}
+
+html body.home #contentArea {
+order:-1
+}
+
+html body.home #contentCol #headerArea {
+margin:0 auto;
+order:-2
+}
+
+html body.home #contentCol #headerArea:after {
+clear:both;
+content:".";
+display:block;
+font-size:0;
+height:0;
+line-height:0;
+visibility:hidden
+}
+
+html body.home #contentCol,html body.home #contentCol > div:first-of-type:last-of-type {
+display:flex
+}
+
+html body.timelineLayout #contentCol {
+margin:0 auto
+}
+
+html div._5pcb {
+display:flex;
+flex-direction:column
+}
+
+i.fb_logo.img.sp_6y74ue.sx_1668ad {
+height:2.3rem;
+margin:1.6rem 3rem 1.6rem 0;
+width:10.6rem
+}
+
+img._6m5.fbStoryAttachmentImage.img {
+margin:0;
+width:100%!important
+}
+
+input#email {
+width:9rem
+}
+
+input#persist_box {
+min-width:initial
+}
+
+input,textarea,keygen,select,button,isindex {
+line-height:inherit
+}
+
+input.uiInputLabelInput.uiInputLabelRadio {
+margin:0 1rem;
+min-height:1em;
+min-width:initial;
+position:relative
+}
+
+li._5my2 {
+padding:.25em .3333em
+}
+
+span.UFICommentBody {
+font-family:'Liberated Serif', serif
+}
+
+span.fcg {
+margin-left:1rem
+}
+
+span.fcg span.fwb:first-child {
+display:block;
+font-size:2rem;
+font-weight:900;
+margin-bottom:1rem;
+text-shadow:1px .1em .2em rgba(0,0,0,.2)
+}
+
+span.fcg span.fwb:not(:first-child) {
+font-weight:300
+}
+
+td._51m-.prs.uiOverlayFooterMessage {
+max-width:50%;
+padding-left:1.6rem
+}
+
+textarea,.inputtext,.inputpassword {
+padding:.6rem
+}
+
+textarea.uiTextareaAutogrow.input autofocus.mentionsTextarea.textInput.DOMControl_placeholder {
+font-size:2rem
+}
+
+textarea.uiTextareaAutogrow.input.autofocus.mentionsTextarea.textInput.DOMControl_placeholder {
+font-size:1.25rem;
+min-height:2em;
+padding:.5rem .25rem 0
+}
+
+ul.uiList,img._46-i.img {
+width:100%
+}
+
+ul.uiList._1dso.rfloat._ohf._509-._4ki._6-h._6-j._6-i {
+float:left;
+font-size:inherit;
+height:auto;
+margin:0;
+vertical-align:bottom;
+width:auto
+}
+
+ul.uiList._1dso.rfloat._ohf._509-._4ki._6-h._6-j._6-i li {
+height:auto;
+vertical-align:bottom
+}
+
+@media only screen and min-width 1340px {
+body.timelineLayout #contentArea {
+margin:0 auto;
+width:auto
+}
+
+body.timelineLayout #rightCol {
+margin:0;
+position:relative;
+right:244px;
+width:0
+}
+}
+
+@media only screen and max-width 1034px {
+html,body {
+width:1034px
+}
+}
