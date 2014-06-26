@@ -3,7 +3,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.1.0.7 (2014-06-25)
+ver 1.1.0.8 (2014-06-26)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -1578,4 +1578,78 @@ div#leftCol {
     margin: 0;
     box-sizing: border-box;
     padding: .6rem;
+}
+
+/* 26 jun 131mt added:
+
+*/
+
+i.fb_logo.img.sp_6y74ue.sx_1668ad {
+    width: 10.6rem;
+    height: 2.3rem;
+    margin: 1.6rem 3rem 1.6rem 0;
+}
+div.loggedout_menubar_container {
+    padding: 0 1rem;
+}
+div.clearfix.loggedout_menubar {
+    padding-top: 1rem;
+}
+div.uiInputLabel.clearfix.uiInputLabelLegacy {
+    margin: 0;
+}
+input#persist_box {
+    min-width: initial;
+}
+label.uiButton {
+    font-size: 1em;
+}
+#login_form tr:nth-child(2):not(:last-child) > td:nth-child(3):last-child {
+    min-width: initial;
+    min-height: initial;
+    padding-left: 1rem;
+}
+#login_form #loginbutton {
+    min-height: 1em;
+    line-height: 2em;
+}
+
+/* 26 jun 156mt added:
+
+*/
+
+.fsm {
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-top: 0;
+    margin-bottom: 1.6em;
+}
+.pam {
+    padding: 1rem;
+}
+div._50f4._50f7 {
+    font-size: 1.25rem;
+}
+div._4-u3.pal {
+    padding: 1.6rem 1.6rem 1.6rem 1em;
+}
+div#checkpointBottomBar {
+    padding: 0;
+    margin: 0;
+}
+td._51m-.prs.uiOverlayFooterMessage {
+    max-width: 50%;
+    padding-left: 1.6rem;
+}
+.uiOverlayFooterButtons button {
+    margin: 7px;
+    padding: .6rem;
+}
+#pageLogo a.logo {
+    margin: 1rem 1rem .6rem 2.6em;
+}
+div#pageFooter {
+    font-size: .75rem;
+    opacity: .75;
+    margin: 2.6rem !important;
 }
