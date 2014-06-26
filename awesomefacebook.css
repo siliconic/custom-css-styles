@@ -3,7 +3,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.1.0.8 (2014-06-26)
+ver 1.1.1 (2014-06-26)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -1652,4 +1652,30 @@ div#pageFooter {
     font-size: .75rem;
     opacity: .75;
     margin: 2.6rem !important;
+}
+
+/* 26 jun 1537mt added:
+
+*/
+
+div._42ef {
+    overflow: initial;
+}
+ul.uiList._a4h.rfloat._ohf._509-._4ki._6-h._6-j._4ks {
+    width: auto;
+}
+div._6-3._kj2 {
+    margin-top: 6rem;
+}
+div._2o49 {
+    padding: .5rem 1rem;
+    line-height: 1em;
+    height: 2em;
+}
+div.uiInputLabel.clearfix.uiInputLabelLegacy.inlineBlock {
+    line-height: 1.6rem;
+    font-size: 1rem;
+}
+.uiList li {
+    line-height: 1.6rem;
 }
