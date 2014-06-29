@@ -3,7 +3,7 @@
 Awesome Facebook
 by siliconic
 for facebook.com
-ver 1.1.2-dev01 (2014-06-29)
+ver 1.1.2-dev02 (2014-06-29)
 
 find more styles + updates + give me some feedback @
 userstyles.org/users/258518
@@ -1309,4 +1309,104 @@ div.clearfix._uhk._19_2._42ef {
     line-height: 1em;
     margin-bottom: .63em;
     margin-top: 1em;
+}
+
+/*	29 jun 1539mt added:
+
+*/
+@media only screen and (max-width: 1080px) {
+    html#facebook {
+        font-size:10px;
+    }
+}
+._6q {
+    font-size: inherit;
+    margin-left: .3em;
+    line-height: 1em;
+}
+span._6p {
+    font-size: 1.6em;
+    margin-top: .4em;
+}
+div._6a._6b {
+    width: auto !important;
+    min-width: 55px;
+    margin-right: 1rem;
+}
+h1.inlineBlock._3ma._6n._6s._6v {
+    font-size: 3rem !important;
+    line-height: 1.25em !important;
+    padding: 0 !important;
+    margin: 1.6rem 0 .6rem .4rem;
+}
+h1.mbs._3ma._6n._6s._6v {
+    font-size: inherit !important;
+    margin-bottom: inherit;
+}
+h2.mbl._3m9._6o._6s._mf {
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+._58mf ._58mg, ._58mf .uiStickyPlaceholderInput .placeholder {
+    font-size: inherit;
+    padding: .3em 0 0 .4em;
+    line-height: 2em;
+}
+div._58mh input._58mg {
+    width: auto;
+    min-width: 17em;
+}
+body, button, input, label, select, td, textarea {
+    min-height: 1em;
+}
+div.mtm.mbs._58mr {
+    font-size: inherit;
+}
+div._58mq select {
+    font-size: inherit;
+    height: auto;
+    padding: .5em;
+}
+a.mlm._58ms {
+    margin-left: 2em;
+    margin-top: .4em;
+    max-width: none;
+}
+span._5k_2._5dba {
+    padding: 0;
+    margin: 0;
+    height: 1em;
+    box-sizing: border-box;
+}
+._5k_2._5dba input {
+    min-width: inherit;
+    line-height: 1em;
+    margin: 0;
+}
+label._58mt {
+    font-size: inherit;
+    line-height: 1.3em;
+    padding: 0;
+}
+div._58mu {
+    width: 100%;
+}
+p._58mv {
+    width: 40%;
+}
+div._6_._74 {
+    width: 43%;
+    box-sizing:border-box;
+}
+div._7d._6_._76 {
+    width: 57%;
+    align-self:stretch;
+    box-sizing:border-box;
+    padding-left: 1.6rem;
+    margin-top: 1.6rem;
+}
+div.pvl {
+    width: auto !important;
+    display: flex;
+    padding: 0;
 }
